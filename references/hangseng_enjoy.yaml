@@ -1,0 +1,70 @@
+id: hangseng_enjoy
+name_en: "Hang Seng enJoy Visa Platinum Card"
+name_zh: "恒生enJoy Visa白金卡"
+issuer: "Hang Seng Bank"
+payment_network: "Visa"
+official_url: "https://www.hangseng.com/en-hk/personal/cards/products/co-branded/enjoy-card/"
+annual_fee_hkd: 0
+offers:
+  - title: "Up to 4X yuu points at designated yuu merchants"
+    offer_type: "recurring-benefit"
+    description: "Cardholders can earn up to 4X yuu points at designated yuu merchants, equivalent to around 2% value when redeemed in yuu ecosystem."
+    reward_type: "points"
+    reward_rate_percent: 2.0
+    reward_cap_hkd: null
+    min_spend_hkd: null
+    spend_cap_hkd: null
+    spend_cap_period: null
+    payment_methods: [ "Card Present", "Online" ]
+    eligible_merchants: [ "7-Eleven", "Mannings", "Wellcome", "IKEA", "KFC", "Pizza Hut", "PHD" ]
+    eligible_categories: [ "Supermarket", "Health & Beauty", "Dining", "Lifestyle" ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: true
+    restrictions: "Cardholder needs yuu account linkage; point conversion and merchant eligibility follow latest yuu x enJoy terms."
+    keywords: [ "enJoy", "yuu", "4x points", "2%回贈", "7-Eleven", "Wellcome", "Mannings" ]
+    tc_url: "https://www.hangseng.com/en-hk/personal/cards/products/co-branded/enjoy-card/"
+    validity: null
+  - title: "Dining discounts up to 50% at designated restaurants"
+    offer_type: "recurring-benefit"
+    description: "Selected dining outlets in partner groups can provide up to 50% discount for enJoy cardholders."
+    reward_type: "discount"
+    reward_rate_percent: 50.0
+    reward_cap_hkd: null
+    min_spend_hkd: null
+    spend_cap_hkd: null
+    spend_cap_period: null
+    payment_methods: [ "Card Present" ]
+    eligible_merchants: [ "Maxim's Chinese Cuisine" ]
+    eligible_categories: [ "Dining" ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: false
+    restrictions: "Discount level depends on restaurant and time slot; blackout dates and set-menu exclusions may apply."
+    keywords: [ "enJoy餐飲", "50%折扣", "Maxim's", "美心中菜" ]
+    tc_url: "https://hkcashrebate.com/hangseng-enjoy-card/"
+    validity: null
+  - title: "Welcome up to HKD 700 equivalent (140,000 yuu points)"
+    offer_type: "welcome"
+    description: "New customers can receive up to 140,000 yuu points (about HKD 700 equivalent) under the current welcome campaign."
+    reward_type: "points"
+    reward_rate_percent: null
+    reward_cap_hkd: 700
+    min_spend_hkd: null
+    spend_cap_hkd: null
+    spend_cap_period: "campaign"
+    payment_methods: [ "Card Present", "Online" ]
+    eligible_merchants: [ ]
+    eligible_categories: [ ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: true
+    restrictions: "Welcome bundle composition and spend conditions vary by campaign period and acquisition channel."
+    keywords: [ "enJoy迎新", "140000 yuu points", "高達700", "新客戶" ]
+    tc_url: "https://hkcashrebate.com/hangseng-enjoy-card/"
+    validity: null
+as_of: "2026-02-28"
+sources:
+  - "https://www.hangseng.com/en-hk/personal/cards/products/co-branded/enjoy-card/"
+  - "https://hkcashrebate.com/hangseng-enjoy-card/"
+

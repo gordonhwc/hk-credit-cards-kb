@@ -1,0 +1,73 @@
+id: hsbc_red
+name_en: "HSBC Red Credit Card"
+name_zh: "滙豐Red信用卡"
+issuer: "HSBC"
+payment_network: "Mastercard"
+official_url: "https://www.hsbc.com.hk/credit-cards/products/red/"
+annual_fee_hkd: 0
+source_extraction_notes:
+  - "Local source /Users/gordon/Desktop/reward-scheme-terms-and-conditions.pdf is image-based/restricted in this environment; only metadata is machine-readable (Author: HSBC HK, CreationDate: 2025-08-20). Detailed clauses were not auto-extractable offline."
+offers:
+  - title: "Online purchases 4% RewardCash (first HKD 10,000 per month)"
+    offer_type: "spending"
+    description: "Online purchases can earn 4% RewardCash on the first HKD 10,000 each calendar month, then 0.4% thereafter."
+    reward_type: "cashback"
+    reward_rate_percent: 4.0
+    reward_cap_hkd: 400
+    min_spend_hkd: null
+    spend_cap_hkd: 10000
+    spend_cap_period: "monthly"
+    payment_methods: [ "Online" ]
+    eligible_merchants: [ ]
+    eligible_categories: [ "Online" ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: false
+    restrictions: "RewardCash posted under HSBC Reward+ mechanics; categories and exclusions follow latest HSBC online spending definition."
+    keywords: [ "HSBC Red", "4% RewardCash", "網購", "每月10000", "0.4%基本回贈" ]
+    tc_url: "https://www.hsbc.com.hk/credit-cards/products/red/"
+    validity: "2025-04-01/2026-03-31"
+  - title: "Designated merchants up to 8% RewardCash (first HKD 1,250 per month)"
+    offer_type: "spending"
+    description: "Instant-reward partner merchants can earn 8% RewardCash on first HKD 1,250 monthly spending, then 0.4% thereafter."
+    reward_type: "cashback"
+    reward_rate_percent: 8.0
+    reward_cap_hkd: 100
+    min_spend_hkd: null
+    spend_cap_hkd: 1250
+    spend_cap_period: "monthly"
+    payment_methods: [ "Card Present", "Online" ]
+    eligible_merchants: [ "Trip.com", "Deliveroo", "foodpanda", "HKTVmall", "Klook", "Amazon" ]
+    eligible_categories: [ "Travel", "Food Delivery", "Online Shopping" ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: false
+    restrictions: "Merchant coverage follows HSBC instant-reward roster and can change by campaign period."
+    keywords: [ "HSBC Red 8%", "即享獎賞", "Trip.com", "foodpanda", "HKTVmall", "Klook" ]
+    tc_url: "https://www.hsbc.com.hk/credit-cards/offers/instant-reward/"
+    validity: null
+  - title: "Welcome offer up to HKD 300 RewardCash"
+    offer_type: "welcome"
+    description: "New HSBC Red applicants can receive up to HKD 300 RewardCash subject to campaign terms."
+    reward_type: "cashback"
+    reward_rate_percent: null
+    reward_cap_hkd: 300
+    min_spend_hkd: null
+    spend_cap_hkd: null
+    spend_cap_period: "campaign"
+    payment_methods: [ "Card Present", "Online" ]
+    eligible_merchants: [ ]
+    eligible_categories: [ ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: false
+    restrictions: "Spend threshold and disbursement schedule depend on the active new-card campaign and application channel."
+    keywords: [ "HSBC Red迎新", "高達300 RewardCash", "新客戶" ]
+    tc_url: "https://www.hsbc.com.hk/credit-cards/products/red/"
+    validity: null
+as_of: "2026-02-28"
+sources:
+  - "https://www.hsbc.com.hk/credit-cards/products/red/"
+  - "https://www.hsbc.com.hk/credit-cards/offers/instant-reward/"
+  - "https://hkcashrebate.com/hsbc-red-credit-card/"
+  - "/Users/gordon/Desktop/reward-scheme-terms-and-conditions.pdf"

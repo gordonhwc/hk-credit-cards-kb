@@ -1,0 +1,70 @@
+id: bochk_go
+name_en: "BOC Go Card"
+name_zh: "中銀Go卡"
+issuer: "BOCHK"
+payment_network: "UnionPay"
+official_url: "https://www.bochk.com/en/creditcard/details/gocard.html"
+annual_fee_notes: "Annual-fee arrangement varies by card tier and latest BOCHK fee schedule."
+offers:
+  - title: "Designated Go merchants up to 5% equivalent rebate"
+    offer_type: "spending"
+    description: "At designated Go merchants, eligible spending can earn up to 5% equivalent reward value."
+    reward_type: "points"
+    reward_rate_percent: 5.0
+    reward_cap_hkd: null
+    min_spend_hkd: null
+    spend_cap_hkd: 2000
+    spend_cap_period: "monthly"
+    payment_methods: [ "Card Present", "Online", "BoC Pay+" ]
+    eligible_merchants: [ "Klook", "Trip.com", "Amazon", "iHerb", "Sasa HK", "hutchgo", "myTV Super", "big big shop" ]
+    eligible_categories: [ "Travel", "Online Shopping", "Lifestyle" ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: true
+    restrictions: "Merchant list and campaign details are updated by BOCHK; rate shown as equivalent redemption value."
+    keywords: [ "中銀Go", "Go商戶", "5%回贈", "Klook", "Trip.com", "Amazon", "iHerb" ]
+    tc_url: "https://hkcashrebate.com/bochk-go-card/"
+    validity: null
+  - title: "Registered mobile spending up to 8% equivalent rebate"
+    offer_type: "spending"
+    description: "With registration, UnionPay Diamond version can reach up to 20X points on mobile spending in Mainland China (up to 8% equivalent), with lower multipliers in Hong Kong and overseas."
+    reward_type: "points"
+    reward_rate_percent: 8.0
+    reward_cap_hkd: null
+    min_spend_hkd: 0
+    spend_cap_hkd: null
+    spend_cap_period: "monthly"
+    payment_methods: [ "Apple Pay", "Google Pay", "Huawei Pay", "BoC Pay+" ]
+    eligible_merchants: [ ]
+    eligible_categories: [ "Mobile Payment", "Mainland China", "Overseas", "Local Retail" ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: true
+    restrictions: "Monthly reward cap is 25,000 points; multiplier differs by card tier and region. Local monthly spending threshold is temporarily waived in captured campaign."
+    keywords: [ "中銀Go mobile", "20X積分", "8%回贈", "Apple Pay", "Google Pay", "Huawei Pay" ]
+    tc_url: "https://hkcashrebate.com/bochk-go-card/"
+    validity: "2026-02-28/2026-06-30"
+  - title: "Welcome up to HKD 500 cashback"
+    offer_type: "welcome"
+    description: "New cardholders can earn up to HKD 500 welcome cashback by completing eligible spending in the first 60 days."
+    reward_type: "cashback"
+    reward_rate_percent: 10.0
+    reward_cap_hkd: 500
+    min_spend_hkd: 4000
+    spend_cap_hkd: null
+    spend_cap_period: "campaign"
+    payment_methods: [ "Card Present", "Online", "Mobile Wallet" ]
+    eligible_merchants: [ ]
+    eligible_categories: [ ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: false
+    restrictions: "Captured campaign shows 10% cashback up to HKD 500 on first-60-day spending for new cardholders."
+    keywords: [ "中銀Go迎新", "高達500", "10%回贈", "首60日" ]
+    tc_url: "https://hkcashrebate.com/bochk-go-card/"
+    validity: null
+as_of: "2026-02-28"
+sources:
+  - "https://www.bochk.com/en/creditcard/details/gocard.html"
+  - "https://hkcashrebate.com/bochk-go-card/"
+

@@ -1,0 +1,50 @@
+id: fubon_in_visa_platinum
+name_en: "Fubon iN VISA Platinum Card"
+name_zh: "富邦iN VISA白金卡"
+issuer: "Fubon Bank (Hong Kong)"
+payment_network: "Visa"
+official_url: "https://fubonbank.com.hk/en/cards/credit-card-products/incard.html"
+annual_fee_notes: "Official material highlights first 3-year annual-fee waiver; post-waiver fee follows prevailing fee schedule."
+offers:
+  - title: "Online spending up to 8% cash rebate"
+    offer_type: "spending"
+    description: "Eligible online spending can earn up to 8% rebate (20X points equivalent), including basic and promotional components."
+    reward_type: "cashback"
+    reward_rate_percent: 8.0
+    reward_cap_hkd: 250
+    min_spend_hkd: 1000
+    spend_cap_hkd: 3125
+    spend_cap_period: "monthly"
+    payment_methods: [ "Online" ]
+    eligible_merchants: [ ]
+    eligible_categories: [ "Online" ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: false
+    restrictions: "Additional rebate component is capped at HKD 250 per month; customer must meet monthly eligible spending threshold to unlock bonus multiplier."
+    keywords: [ "Fubon iN", "8%回贈", "20X積分", "網上簽賬", "每月上限250" ]
+    tc_url: "https://hkcashrebate.com/fubon-in-credit-card/"
+    validity: "2026-02-28/2026-06-30"
+  - title: "Welcome HKD 150 cash rebate"
+    offer_type: "welcome"
+    description: "New customers can receive HKD 150 cash rebate by spending HKD 5,000 within the first 3 months."
+    reward_type: "cashback"
+    reward_rate_percent: null
+    reward_cap_hkd: 150
+    min_spend_hkd: 5000
+    spend_cap_hkd: null
+    spend_cap_period: "campaign"
+    payment_methods: [ "Card Present", "Online" ]
+    eligible_merchants: [ ]
+    eligible_categories: [ ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: false
+    restrictions: "Offer is tied to application period and first-3-month spend window; check latest campaign pages for exact enrollment end date."
+    keywords: [ "富邦iN迎新", "150現金回贈", "首3個月", "簽賬5000" ]
+    tc_url: "https://hkcashrebate.com/fubon-in-credit-card/"
+    validity: "2026-02-28/2026-06-30"
+as_of: "2026-02-28"
+sources:
+  - "https://fubonbank.com.hk/en/cards/credit-card-products/incard.html"
+  - "https://hkcashrebate.com/fubon-in-credit-card/"

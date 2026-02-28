@@ -1,0 +1,68 @@
+id: sc_smart
+name_en: "Standard Chartered Smart Credit Card"
+name_zh: "渣打Smart信用卡"
+issuer: "Standard Chartered"
+payment_network: "Visa"
+official_url: "https://www.sc.com/hk/credit-cards/smart/"
+annual_fee_hkd: 0
+offers:
+  - title: "Designated merchants up to 5% cashback"
+    offer_type: "spending"
+    description: "By meeting monthly spending tier, designated merchant transactions can reach up to 5% effective cashback (basic + extra components)."
+    reward_type: "cashback"
+    reward_rate_percent: 5.0
+    reward_cap_hkd: 250
+    min_spend_hkd: 4000
+    spend_cap_hkd: 5000
+    spend_cap_period: "monthly"
+    payment_methods: [ "Card Present", "Online", "Mobile Wallet" ]
+    eligible_merchants: [ "HKTVmall", "foodpanda", "Deliveroo", "Amazon", "Taobao", "Uber", "Uber Eats", "Trip.com", "Klook" ]
+    eligible_categories: [ "Online Shopping", "Food Delivery", "Ride-hailing", "Travel" ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: false
+    restrictions: "For monthly eligible spend HKD 4,000-14,999, extra cashback component applies to first HKD 5,000 designated spending; for higher monthly spend tiers, extra-rate formula differs."
+    keywords: [ "SC Smart", "5%回贈", "指定商戶", "HKTVmall", "foodpanda", "Deliveroo", "Uber", "Klook" ]
+    tc_url: "https://www.sc.com/hk/credit-cards/smart/"
+    validity: null
+  - title: "Online spending up to 4% cashback"
+    offer_type: "spending"
+    description: "Online transactions can earn up to 4% cashback under Smart card reward design."
+    reward_type: "cashback"
+    reward_rate_percent: 4.0
+    reward_cap_hkd: null
+    min_spend_hkd: null
+    spend_cap_hkd: null
+    spend_cap_period: null
+    payment_methods: [ "Online", "Mobile Wallet" ]
+    eligible_merchants: [ ]
+    eligible_categories: [ "Online" ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: false
+    restrictions: "Effective rate depends on monthly eligible-spend tier and transaction classification."
+    keywords: [ "SC Smart網購", "4%回贈", "電子錢包", "網上消費" ]
+    tc_url: "https://www.sc.com/hk/credit-cards/smart/"
+    validity: null
+  - title: "General local and overseas spending up to 2% cashback"
+    offer_type: "spending"
+    description: "General eligible spending can earn up to 2% cashback depending on monthly spend tier."
+    reward_type: "cashback"
+    reward_rate_percent: 2.0
+    reward_cap_hkd: null
+    min_spend_hkd: null
+    spend_cap_hkd: null
+    spend_cap_period: null
+    payment_methods: [ "Card Present", "Online" ]
+    eligible_merchants: [ ]
+    eligible_categories: [ "Local Retail", "Overseas" ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: false
+    restrictions: "Tier thresholds and excluded transactions are governed by Standard Chartered Smart rewards T&Cs."
+    keywords: [ "SC Smart一般簽賬", "2%回贈", "海外簽賬", "本地簽賬" ]
+    tc_url: "https://www.sc.com/hk/credit-cards/smart/"
+    validity: null
+as_of: "2026-02-28"
+sources:
+  - "https://www.sc.com/hk/credit-cards/smart/"

@@ -1,0 +1,108 @@
+id: aeon_wakuwaku
+name_en: "AEON CARD WAKUWAKU"
+name_zh: "AEON CARD WAKUWAKU"
+issuer: "AEON"
+payment_network: "Mastercard"
+official_url: "https://www.aeon.com.hk/en/credit-card/creditcard-wakuwaku.html"
+annual_fee_hkd: 0
+offers:
+  - title: "Online spending 6% WAKU COIN (0.4% basic + 5.6% extra)"
+    offer_type: "spending"
+    description: "Within the promotion period, eligible online spending earns 6% WAKU COIN in total (0.4% basic reward + 5.6% extra reward)."
+    reward_type: "cashback"
+    reward_rate_percent: 6.0
+    reward_cap_hkd: 200
+    min_spend_hkd: null
+    spend_cap_hkd: null
+    spend_cap_period: "monthly"
+    payment_methods: [ "Online" ]
+    eligible_merchants: [ ]
+    eligible_categories: [ "Online" ]
+    excluded_merchants: [ ]
+    excluded_categories: [ "Insurance", "E-wallet Spending", "AEON Merchant Interest-free Installment" ]
+    registration_required: false
+    restrictions: "Extra reward is pooled with other boosted categories and capped at HKD 200 WAKU COIN per statement cycle. Online category excludes insurance transactions, e-wallet spending, and AEON merchant interest-free installment transactions. If a transaction falls in multiple categories, priority order is online > Japan overseas > local dining > other."
+    keywords: [ "WAKUWAKU", "AEON", "WAKU COIN", "6%網上簽賬", "網購", "回贈" ]
+    tc_url: "/Users/gordon/Desktop/AEONCARDWAKUWAKU_RBBD_TC.pdf"
+    validity: "2026-03-01/2026-08-31"
+  - title: "Japan overseas spending 3% WAKU COIN (0.4% basic + 2.6% extra)"
+    offer_type: "spending"
+    description: "Eligible Japan overseas transactions in JPY earn 3% WAKU COIN in total (0.4% basic reward + 2.6% extra reward)."
+    reward_type: "cashback"
+    reward_rate_percent: 3.0
+    reward_cap_hkd: 200
+    min_spend_hkd: null
+    spend_cap_hkd: null
+    spend_cap_period: "monthly"
+    payment_methods: [ "Card Present" ]
+    eligible_merchants: [ ]
+    eligible_categories: [ "Japan", "Overseas" ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: false
+    restrictions: "Transaction must be completed in Japan in JPY with original sales slip or formal transaction record. Extra reward is pooled with other boosted categories and capped at HKD 200 WAKU COIN per statement cycle."
+    keywords: [ "WAKUWAKU", "日本海外簽賬", "3%回贈", "JPY", "Japan" ]
+    tc_url: "/Users/gordon/Desktop/AEONCARDWAKUWAKU_RBBD_TC.pdf"
+    validity: "2026-03-01/2026-08-31"
+  - title: "Local dining spending 1% WAKU COIN (0.4% basic + 0.6% extra)"
+    offer_type: "spending"
+    description: "Eligible local dining transactions in Hong Kong earn 1% WAKU COIN in total (0.4% basic reward + 0.6% extra reward)."
+    reward_type: "cashback"
+    reward_rate_percent: 1.0
+    reward_cap_hkd: 200
+    min_spend_hkd: null
+    spend_cap_hkd: null
+    spend_cap_period: "monthly"
+    payment_methods: [ "Card Present" ]
+    eligible_merchants: [ ]
+    eligible_categories: [ "Dining", "Local" ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: false
+    restrictions: "Local dining is defined by Mastercard merchant code as restaurants, fast food outlets, and hotel dining in Hong Kong. Extra reward is pooled with other boosted categories and capped at HKD 200 WAKU COIN per statement cycle."
+    keywords: [ "WAKUWAKU", "本地餐飲", "1%回贈", "餐廳", "快餐店", "酒店餐飲" ]
+    tc_url: "/Users/gordon/Desktop/AEONCARDWAKUWAKU_RBBD_TC.pdf"
+    validity: "2026-03-01/2026-08-31"
+  - title: "Other spending 0.4% basic WAKU COIN"
+    offer_type: "spending"
+    description: "All other eligible spending earns 0.4% basic WAKU COIN with no cap under the reward table."
+    reward_type: "cashback"
+    reward_rate_percent: 0.4
+    reward_cap_hkd: null
+    min_spend_hkd: null
+    spend_cap_hkd: null
+    spend_cap_period: null
+    payment_methods: [ "Card Present", "Online" ]
+    eligible_merchants: [ ]
+    eligible_categories: [ "General Spend", "Octopus Top-up", "Insurance", "AEON Merchant Interest-free Installment" ]
+    excluded_merchants: [ ]
+    excluded_categories: [ "Cash Advance", "Cash Advance Installment", "Payment via AEON Netmember", "E-wallet Top-up", "E-wallet Transfer", "Fees", "Late Charges", "Interest", "AEON In-house Installment", "Gambling", "Unposted/Unauthorized/Cancelled/Refunded/Fraudulent Transactions" ]
+    registration_required: false
+    restrictions: "Other-spending bucket includes categories outside online/Japan/local-dining definitions and includes Octopus top-up, insurance payment, and AEON merchant interest-free installment. WAKU COIN validity is 24 months from issue month."
+    keywords: [ "WAKUWAKU", "0.4%基本獎賞", "八達通增值", "保險", "分期", "WAKU COIN有效期24個月" ]
+    tc_url: "/Users/gordon/Desktop/AEONCARDWAKUWAKU_RBBD_TC.pdf"
+    validity: "2026-03-01/2026-08-31"
+  - title: "Welcome up to HKD 700 rebate"
+    offer_type: "welcome"
+    description: "New customers can earn up to HKD 700 welcome rebate by meeting first-60-day spend requirements."
+    reward_type: "cashback"
+    reward_rate_percent: null
+    reward_cap_hkd: 700
+    min_spend_hkd: 8000
+    spend_cap_hkd: null
+    spend_cap_period: "campaign"
+    payment_methods: [ "Card Present", "Online", "Mobile Wallet" ]
+    eligible_merchants: [ ]
+    eligible_categories: [ ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: false
+    restrictions: "Snapshot offer shows base spend requirement of HKD 8,000 in first 60 days; mobile-wallet bonus mechanics and deadline may vary by campaign wave."
+    keywords: [ "WAKUWAKU迎新", "高達700", "首60日", "新客戶" ]
+    tc_url: "https://hkcashrebate.com/aeon-card-wakuwaku/"
+    validity: "2026-02-28/2026-04-30"
+as_of: "2026-02-28"
+sources:
+  - "https://www.aeon.com.hk/en/credit-card/creditcard-wakuwaku.html"
+  - "/Users/gordon/Desktop/AEONCARDWAKUWAKU_RBBD_TC.pdf"
+  - "https://hkcashrebate.com/aeon-card-wakuwaku/"

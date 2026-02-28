@@ -1,0 +1,72 @@
+id: hsbc_student_visa_gold
+name_en: "HSBC Visa Gold Card for Students"
+name_zh: "滙豐學生Visa Gold信用卡"
+issuer: "HSBC"
+payment_network: "Visa"
+official_url: "https://www.hsbc.com.hk/credit-cards/products/student-visa-gold/"
+annual_fee_hkd: 0
+source_extraction_notes:
+  - "Local source /Users/gordon/Desktop/reward-scheme-terms-and-conditions.pdf is image-based/restricted in this environment; only metadata is machine-readable (Author: HSBC HK, CreationDate: 2025-08-20). Detailed clauses were not auto-extractable offline."
+offers:
+  - title: "Tuition fee spending up to 2.4% RewardCash (cap HKD 400)"
+    offer_type: "spending"
+    description: "Eligible tuition fee transactions can earn up to 2.4% RewardCash, with a total cap of HKD 400 during the campaign period."
+    reward_type: "cashback"
+    reward_rate_percent: 2.4
+    reward_cap_hkd: 400
+    min_spend_hkd: null
+    spend_cap_hkd: null
+    spend_cap_period: "campaign"
+    payment_methods: [ "Card Present", "Online" ]
+    eligible_merchants: [ ]
+    eligible_categories: [ "Tuition Fees", "Education" ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: false
+    restrictions: "Eligibility depends on HSBC transaction coding for tuition fees and latest student-card offer terms."
+    keywords: [ "學生卡", "2.4% RewardCash", "學費", "回贈上限400" ]
+    tc_url: "https://www.hsbc.com.hk/credit-cards/products/student-visa-gold/"
+    validity: null
+  - title: "Rewards of Your Choice up to 2.4% RewardCash"
+    offer_type: "spending"
+    description: "Students can select preferred categories in Rewards of Your Choice to earn up to 2.4% RewardCash."
+    reward_type: "cashback"
+    reward_rate_percent: 2.4
+    reward_cap_hkd: null
+    min_spend_hkd: null
+    spend_cap_hkd: null
+    spend_cap_period: null
+    payment_methods: [ "Card Present", "Online" ]
+    eligible_merchants: [ ]
+    eligible_categories: [ "Selected Categories" ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: true
+    restrictions: "Effective categories and caps follow the currently selected Reward+ option and latest HSBC terms."
+    keywords: [ "Rewards of Your Choice", "2.4%", "學生信用卡", "自選類別" ]
+    tc_url: "https://hkcashrebate.com/hsbc-student-visa-gold-card/"
+    validity: null
+  - title: "Welcome offer up to HKD 300 RewardCash"
+    offer_type: "welcome"
+    description: "New student cardholders can earn up to HKD 300 RewardCash under current welcome campaign terms."
+    reward_type: "cashback"
+    reward_rate_percent: null
+    reward_cap_hkd: 300
+    min_spend_hkd: null
+    spend_cap_hkd: null
+    spend_cap_period: "campaign"
+    payment_methods: [ "Card Present", "Online" ]
+    eligible_merchants: [ ]
+    eligible_categories: [ ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: false
+    restrictions: "Welcome milestones and deadlines vary by application channel and campaign version."
+    keywords: [ "HSBC學生卡迎新", "高達300 RewardCash", "新客戶" ]
+    tc_url: "https://www.hsbc.com.hk/credit-cards/products/student-visa-gold/"
+    validity: null
+as_of: "2026-02-28"
+sources:
+  - "https://www.hsbc.com.hk/credit-cards/products/student-visa-gold/"
+  - "https://hkcashrebate.com/hsbc-student-visa-gold-card/"
+  - "/Users/gordon/Desktop/reward-scheme-terms-and-conditions.pdf"

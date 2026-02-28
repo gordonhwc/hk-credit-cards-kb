@@ -1,0 +1,50 @@
+id: aeon_jcb
+name_en: "AEON JCB Credit Card"
+name_zh: "AEON JCB信用卡"
+issuer: "AEON"
+payment_network: "JCB"
+official_url: "https://www.aeon.com.hk/tc/credit-card/creditcard-jusco-jcb.html?link_id=hk_zh_aeon"
+annual_fee_hkd: 0
+offers:
+  - title: "AEON Purple 5X points on spending categories"
+    offer_type: "spending"
+    description: "After registration in AEON Purple, eligible spending in selected 'food, clothing, housing and transportation' categories can earn up to 5X points (around 2% equivalent rebate value)."
+    reward_type: "points"
+    reward_rate_percent: 2.0
+    reward_cap_hkd: null
+    min_spend_hkd: null
+    spend_cap_hkd: null
+    spend_cap_period: "monthly"
+    payment_methods: [ "Card Present", "Online" ]
+    eligible_merchants: [ ]
+    eligible_categories: [ "Dining", "Shopping", "Lifestyle", "Transportation" ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: true
+    restrictions: "Official page indicates monthly cap of 25,000 points per selected category in Purple; exact category mapping and cutoff time follow latest AEON terms."
+    keywords: [ "AEON JCB", "AEON Purple", "紫賞生活", "5X積分", "2%回贈", "食住行" ]
+    tc_url: "https://www.aeon.com.hk/tc/credit-card/benefits-and-promotions/aeon-card-waiver-program/aeon-purple.html"
+    validity: null
+  - title: "New-customer welcome up to HKD 600 rebate"
+    offer_type: "welcome"
+    description: "New cardholders can receive up to HKD 600 welcome rebate on eligible spending in the first 60 days after card issuance."
+    reward_type: "cashback"
+    reward_rate_percent: null
+    reward_cap_hkd: 600
+    min_spend_hkd: 6000
+    spend_cap_hkd: null
+    spend_cap_period: "campaign"
+    payment_methods: [ "Card Present", "Online" ]
+    eligible_merchants: [ ]
+    eligible_categories: [ ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: false
+    restrictions: "Welcome mechanics vary by application channel and campaign bundle; verify latest AEON welcome T&Cs before applying."
+    keywords: [ "AEON迎新", "高達600", "新客戶", "60日簽賬" ]
+    tc_url: "https://www.aeon.com.hk/tc/credit-card/benefits-and-promotions/aeon-card-waiver-program/aeon-purple.html"
+    validity: null
+as_of: "2026-02-28"
+sources:
+  - "https://www.aeon.com.hk/tc/credit-card/creditcard-jusco-jcb.html?link_id=hk_zh_aeon"
+  - "https://www.aeon.com.hk/tc/credit-card/benefits-and-promotions/aeon-card-waiver-program/aeon-purple.html"

@@ -1,0 +1,71 @@
+id: primecredit_earnmore_unionpay
+name_en: "PrimeCredit EarnMORE UnionPay Credit Card"
+name_zh: "安信EarnMORE銀聯信用卡"
+issuer: "PrimeCredit"
+payment_network: "UnionPay"
+official_url: "https://www.primecredit.com/credit-card/earnmore/"
+annual_fee_notes: "Annual-fee details should be confirmed from latest PrimeCredit fee schedule/KFS."
+offers:
+  - title: "General spending up to 2% cashback"
+    offer_type: "spending"
+    description: "Core cashback proposition is up to 2% on eligible spending (base + promotional component)."
+    reward_type: "cashback"
+    reward_rate_percent: 2.0
+    reward_cap_hkd: null
+    min_spend_hkd: null
+    spend_cap_hkd: null
+    spend_cap_period: null
+    payment_methods: [ "Card Present", "Online", "Mobile Wallet" ]
+    eligible_merchants: [ ]
+    eligible_categories: [ "General Spend", "Local", "Overseas" ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: false
+    restrictions: "Promotional top-up portion may be capped by campaign; base earning and exclusions follow prevailing PrimeCredit terms."
+    keywords: [ "EarnMORE", "安信", "2%回贈", "銀聯", "一般簽賬" ]
+    tc_url: "https://www.primecredit.com/credit-card/earnmore/"
+    validity: null
+  - title: "iPay installment extra 2% for selected regions"
+    offer_type: "installment"
+    description: "Eligible transactions in Mainland China, Macau, Taiwan, Japan and Korea can get extra 2% cashback when each transaction is HKD 1,500+ and converted to 6+ month iPay installment via OmyCard."
+    reward_type: "cashback"
+    reward_rate_percent: 2.0
+    reward_cap_hkd: null
+    min_spend_hkd: 1500
+    spend_cap_hkd: null
+    spend_cap_period: "campaign"
+    payment_methods: [ "Card Present", "Online", "OmyCard App (Installment)" ]
+    eligible_merchants: [ ]
+    eligible_categories: [ "Installment", "Travel", "Overseas" ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: true
+    restrictions: "Transaction must be successfully converted in-app with tenor >=6 months; campaign period and quota apply."
+    keywords: [ "EarnMORE分期", "iPay", "額外2%", "日本", "韓國", "內地", "澳門", "台灣" ]
+    tc_url: "https://www.primecredit.com/credit-card/latest-offers/ipay-installment-reward/"
+    validity: "2026-02-28/2026-03-31"
+  - title: "Welcome up to HKD 500 cashback"
+    offer_type: "welcome"
+    description: "New cardholders can receive up to HKD 500 cashback by reaching first-period spending target."
+    reward_type: "cashback"
+    reward_rate_percent: null
+    reward_cap_hkd: 500
+    min_spend_hkd: 8500
+    spend_cap_hkd: null
+    spend_cap_period: "campaign"
+    payment_methods: [ "Card Present", "Online" ]
+    eligible_merchants: [ ]
+    eligible_categories: [ ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: false
+    restrictions: "Captured offer mentions HKD 8,500 qualifying spend; application and posting windows follow campaign rules."
+    keywords: [ "EarnMORE迎新", "高達500", "簽賬8500", "新客戶" ]
+    tc_url: "https://www.primecredit.com/credit-card/latest-offers/ipay-installment-reward/"
+    validity: "2026-02-28/2026-03-31"
+as_of: "2026-02-28"
+sources:
+  - "https://www.primecredit.com/credit-card/earnmore/"
+  - "https://www.primecredit.com/credit-card/latest-offers/ipay-installment-reward/"
+  - "https://www.hongkongcard.com/card/primecredit_earnmore_unionpay_platinum_card"
+

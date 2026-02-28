@@ -1,0 +1,69 @@
+id: sc_simply_cash_visa
+name_en: "Standard Chartered Simply Cash Visa Card"
+name_zh: "渣打Simply Cash Visa卡"
+issuer: "Standard Chartered"
+payment_network: "Visa"
+official_url: "https://www.sc.com/hk/credit-cards/simplycash/"
+annual_fee_notes: "Captured key-facts text shows annual fee HKD 2,000; waiver treatment is subject to bank approval/campaign."
+offers:
+  - title: "Unlimited 1.5% cashback on eligible spending"
+    offer_type: "spending"
+    description: "Simply Cash provides 1.5% cashback on eligible retail spending with no stated cap in captured source."
+    reward_type: "cashback"
+    reward_rate_percent: 1.5
+    reward_cap_hkd: null
+    min_spend_hkd: null
+    spend_cap_hkd: null
+    spend_cap_period: null
+    payment_methods: [ "Card Present", "Online", "Mobile Wallet" ]
+    eligible_merchants: [ ]
+    eligible_categories: [ "General Spend" ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: false
+    restrictions: "Subject to Standard Chartered eligible-spending definitions and exclusions."
+    keywords: [ "Simply Cash", "1.5%回贈", "無上限", "渣打" ]
+    tc_url: "https://www.sc.com/hk/credit-cards/simplycash/"
+    validity: null
+  - title: "Overseas and Smart Credit Pay spending up to 2% cashback"
+    offer_type: "spending"
+    description: "Selected overseas retail spending and Smart Credit Pay installment spending can earn up to 2% cashback."
+    reward_type: "cashback"
+    reward_rate_percent: 2.0
+    reward_cap_hkd: null
+    min_spend_hkd: null
+    spend_cap_hkd: null
+    spend_cap_period: null
+    payment_methods: [ "Card Present", "Online", "Smart Credit Pay" ]
+    eligible_merchants: [ ]
+    eligible_categories: [ "Overseas", "Installment" ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: false
+    restrictions: "2% rate applies to specific transaction classes; verify final merchant/campaign scope before use."
+    keywords: [ "Simply Cash 2%", "海外簽賬", "Smart Credit Pay", "分期" ]
+    tc_url: "https://www.sc.com/hk/credit-cards/simplycash/"
+    validity: null
+  - title: "Welcome offer up to HKD 1,100 cashback"
+    offer_type: "welcome"
+    description: "New customers can receive up to HKD 1,100 cashback under the latest welcome campaign."
+    reward_type: "cashback"
+    reward_rate_percent: null
+    reward_cap_hkd: 1100
+    min_spend_hkd: null
+    spend_cap_hkd: null
+    spend_cap_period: "campaign"
+    payment_methods: [ "Card Present", "Online" ]
+    eligible_merchants: [ ]
+    eligible_categories: [ ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: false
+    restrictions: "Captured campaign deadline is 2026-03-31; spend threshold depends on selected welcome package."
+    keywords: [ "Simply Cash迎新", "高達1100", "新客戶", "現金回贈" ]
+    tc_url: "https://www.sc.com/hk/credit-cards/simplycash/"
+    validity: "2026-02-28/2026-03-31"
+as_of: "2026-02-28"
+sources:
+  - "https://www.sc.com/hk/credit-cards/simplycash/"
+

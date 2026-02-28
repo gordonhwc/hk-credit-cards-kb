@@ -1,0 +1,51 @@
+id: bochk_chill
+name_en: "BOC Chill Card"
+name_zh: "中銀Chill Card"
+issuer: "BOCHK"
+payment_network: "Mastercard"
+official_url: "https://www.bochk.com/en/creditcard/details/chillcard.html"
+annual_fee_notes: "Annual-fee arrangement varies by Chill card tier and latest BOCHK fee schedule."
+offers:
+  - title: "Chill World up to 5% online/overseas and 10% designated merchants"
+    offer_type: "spending"
+    description: "Registered Chill World users can get 5% total rebate for online and overseas spending and up to 10% at designated Chill merchants."
+    reward_type: "cashback"
+    reward_rate_percent: 10.0
+    reward_cap_hkd: 150
+    min_spend_hkd: 1500
+    spend_cap_hkd: null
+    spend_cap_period: "monthly"
+    payment_methods: [ "Card Present", "Online", "Mobile Wallet" ]
+    eligible_merchants: [ "McDonald's", "foodpanda", "HKTVmall", "Trip.com", "Klook" ]
+    eligible_categories: [ "Online", "Overseas", "Dining", "Lifestyle" ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: true
+    restrictions: "Monthly extra rebate cap is HKD 150. Tier-specific rates differ between Chill World and Chill Platinum; monthly spend threshold applies."
+    keywords: [ "Chill Card", "Chill World", "5%回贈", "10%回贈", "McDonald's", "foodpanda", "HKTVmall" ]
+    tc_url: "https://hkcashrebate.com/boc-chill-card/"
+    validity: null
+  - title: "Welcome rebate up to HKD 800"
+    offer_type: "welcome"
+    description: "New BOCHK cardholders can receive up to HKD 800 welcome rebate after reaching campaign spending targets."
+    reward_type: "cashback"
+    reward_rate_percent: null
+    reward_cap_hkd: 800
+    min_spend_hkd: 6000
+    spend_cap_hkd: null
+    spend_cap_period: "campaign"
+    payment_methods: [ "Card Present", "Online" ]
+    eligible_merchants: [ ]
+    eligible_categories: [ ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: false
+    restrictions: "Campaign windows vary by application channel; captured snapshot indicates an application period ending 2026-02-28."
+    keywords: [ "中銀Chill迎新", "高達800", "新客戶", "簽賬獎賞" ]
+    tc_url: "https://hkcashrebate.com/boc-chill-card/"
+    validity: "2025-11-18/2026-02-28"
+as_of: "2026-02-28"
+sources:
+  - "https://www.bochk.com/en/creditcard/details/chillcard.html"
+  - "https://hkcashrebate.com/boc-chill-card/"
+

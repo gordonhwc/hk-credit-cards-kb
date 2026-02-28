@@ -1,0 +1,52 @@
+id: primecredit_wewa_unionpay_diamond
+name_en: "WeWa UnionPay Diamond Card"
+name_zh: "WeWa銀聯鑽石卡"
+issuer: "PrimeCredit"
+payment_network: "UnionPay"
+official_url: "https://www.wewacard.com/"
+annual_fee_notes: "Annual-fee details should be confirmed from latest WeWa/PrimeCredit fee schedule."
+offers:
+  - title: "Choose-your-cashback categories up to 4%"
+    offer_type: "spending"
+    description: "Cardholders can choose spending categories (e.g. dining, food delivery, ride-hailing, travel) and earn up to 4% cashback."
+    reward_type: "cashback"
+    reward_rate_percent: 4.0
+    reward_cap_hkd: 200
+    min_spend_hkd: 1500
+    spend_cap_hkd: 5000
+    spend_cap_period: "monthly"
+    payment_methods: [ "Card Present", "Online", "Mobile Wallet" ]
+    eligible_merchants: [ ]
+    eligible_categories: [ "Dining", "Food Delivery", "Ride-hailing", "Travel" ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: true
+    restrictions: "Captured source indicates monthly spend threshold HKD 1,500 and cashback cap HKD 200 for boosted categories."
+    keywords: [ "WeWa", "4%回贈", "自選回贈", "餐飲", "外賣", "Call車", "旅遊" ]
+    tc_url: "https://www.wewacard.com/choose-your-cash-rebate/"
+    validity: "2026-01-01/2026-12-31"
+  - title: "Welcome rewards up to HKD 700 equivalent"
+    offer_type: "welcome"
+    description: "New applicants can receive up to HKD 700 equivalent in welcome rewards under active acquisition campaigns."
+    reward_type: "mixed"
+    reward_rate_percent: null
+    reward_cap_hkd: 700
+    min_spend_hkd: null
+    spend_cap_hkd: null
+    spend_cap_period: "campaign"
+    payment_methods: [ "Card Present", "Online" ]
+    eligible_merchants: [ ]
+    eligible_categories: [ ]
+    excluded_merchants: [ ]
+    excluded_categories: [ ]
+    registration_required: false
+    restrictions: "Campaign can combine spending rebates and media-channel bonuses; exact trigger criteria vary by campaign period."
+    keywords: [ "WeWa迎新", "高達700", "銀聯", "鑽石卡", "新客戶" ]
+    tc_url: "https://www.wewacard.com/"
+    validity: null
+as_of: "2026-02-28"
+sources:
+  - "https://www.wewacard.com/"
+  - "https://www.wewacard.com/choose-your-cash-rebate/"
+  - "https://hkcashrebate.com/wewa-card/"
+
