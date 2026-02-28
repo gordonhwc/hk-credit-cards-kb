@@ -40,12 +40,14 @@ Each entry should point to one card YAML file and list concise retrieval tags.
 - Mastercard
 - Chill Card
 - Chill World
+- Chill Platinum
 - Online
 - Overseas
 - Designated Merchants
 - McDonald's
 - foodpanda
 - HKTVmall
+- Welcome
 
 ## references/bochk_go.yaml
 - BOCHK
@@ -57,8 +59,16 @@ Each entry should point to one card YAML file and list concise retrieval tags.
 - Huawei Pay
 - Mainland
 - Overseas
-- Klook
-- Trip.com
+- Keeta
+- 美團
+- 大眾點評
+- 滴滴
+- 京東港澳站
+- 惠康
+- Market Place
+- Oliver's
+- 3hreesixty
+- High Speed Rail
 
 ## references/fubon_in_visa_platinum.yaml
 - Fubon
@@ -75,11 +85,13 @@ Each entry should point to one card YAML file and list concise retrieval tags.
 - Visa
 - enJoy
 - yuu
-- Dining
+- Weekday Discount
+- Supermarket
 - 7-Eleven
 - Wellcome
 - Mannings
-- IKEA
+- PARKnSHOP
+- Watsons
 - Welcome
 
 ## references/hsbc_red.yaml
@@ -88,11 +100,19 @@ Each entry should point to one card YAML file and list concise retrieval tags.
 - Red
 - RewardCash
 - 4% Online
-- 8% Instant Reward
-- Trip.com
-- foodpanda
-- HKTVmall
-- Welcome
+- 8% Designated Merchants
+- Sushiro
+- 壽司郎
+- TamJai SamGor
+- 譚仔三哥
+- TamJai Yunnan
+- 譚仔雲南
+- GU
+- Decathlon
+- lululemon
+- NAMCO
+- TAITO STATION
+- No Welcome
 
 ## references/hsbc_student_visa_gold.yaml
 - HSBC
@@ -101,7 +121,8 @@ Each entry should point to one card YAML file and list concise retrieval tags.
 - RewardCash
 - Tuition Fee
 - Education
-- Rewards of Your Choice
+- Overseas
+- Travel Guru
 - Welcome
 
 ## references/mox_credit.yaml
@@ -119,11 +140,9 @@ Each entry should point to one card YAML file and list concise retrieval tags.
 - UnionPay
 - EarnMORE
 - 2% Cashback
-- iPay Installment
-- OmyCard
-- Japan
-- Korea
-- Mainland
+- Half-year Cap
+- 80k Threshold
+- 1% After Cap
 - Welcome
 
 ## references/primecredit_wewa_unionpay_diamond.yaml
@@ -145,7 +164,8 @@ Each entry should point to one card YAML file and list concise retrieval tags.
 - 1.5% Cashback
 - 2% Overseas
 - Smart Credit Pay
-- Installment
+- PayMe
+- 1088 Welcome
 - Welcome
 
 ## references/sc_smart.yaml
@@ -153,9 +173,10 @@ Each entry should point to one card YAML file and list concise retrieval tags.
 - Visa
 - Smart Card
 - 5% Cashback
-- 4% Online
-- 2% General Spend
+- 0.56% General Spend
+- 1.2% High Spend Tier
 - HKTVmall
 - foodpanda
 - Deliveroo
 - Uber
+- KKday

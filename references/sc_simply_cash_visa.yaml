@@ -8,7 +8,7 @@ annual_fee_notes: "Captured key-facts text shows annual fee HKD 2,000; waiver tr
 offers:
   - title: "Unlimited 1.5% cashback on eligible spending"
     offer_type: "spending"
-    description: "Simply Cash provides 1.5% cashback on eligible retail spending with no stated cap in captured source."
+    description: "Simply Cash provides 1.5% cashback on local eligible retail spending with no cap in source snapshot."
     reward_type: "cashback"
     reward_rate_percent: 1.5
     reward_cap_hkd: null
@@ -23,11 +23,11 @@ offers:
     registration_required: false
     restrictions: "Subject to Standard Chartered eligible-spending definitions and exclusions."
     keywords: [ "Simply Cash", "1.5%回贈", "無上限", "渣打" ]
-    tc_url: "https://www.sc.com/hk/credit-cards/simplycash/"
+    tc_url: "https://hkcashrebate.com/sc-simply-cash"
     validity: null
   - title: "Overseas and Smart Credit Pay spending up to 2% cashback"
     offer_type: "spending"
-    description: "Selected overseas retail spending and Smart Credit Pay installment spending can earn up to 2% cashback."
+    description: "Selected overseas retail spending and designated digital-wallet channels (including PayPal, AlipayHK and WeChat Pay HK) can earn up to 2% cashback."
     reward_type: "cashback"
     reward_rate_percent: 2.0
     reward_cap_hkd: null
@@ -40,17 +40,17 @@ offers:
     excluded_merchants: [ ]
     excluded_categories: [ ]
     registration_required: false
-    restrictions: "2% rate applies to specific transaction classes; verify final merchant/campaign scope before use."
+    restrictions: "2% rate applies to defined transaction classes/channels in source snapshot; final inclusion still follows Standard Chartered terms."
     keywords: [ "Simply Cash 2%", "海外簽賬", "Smart Credit Pay", "分期" ]
-    tc_url: "https://www.sc.com/hk/credit-cards/simplycash/"
+    tc_url: "https://hkcashrebate.com/sc-simply-cash"
     validity: null
-  - title: "Welcome offer up to HKD 1,100 cashback"
+  - title: "Welcome offer up to HKD 1,088 cashback"
     offer_type: "welcome"
-    description: "New customers can receive up to HKD 1,100 cashback under the latest welcome campaign."
+    description: "New customers can receive up to HKD 1,088 cashback under the latest welcome campaign."
     reward_type: "cashback"
     reward_rate_percent: null
-    reward_cap_hkd: 1100
-    min_spend_hkd: null
+    reward_cap_hkd: 1088
+    min_spend_hkd: 8000
     spend_cap_hkd: null
     spend_cap_period: "campaign"
     payment_methods: [ "Card Present", "Online" ]
@@ -59,11 +59,11 @@ offers:
     excluded_merchants: [ ]
     excluded_categories: [ ]
     registration_required: false
-    restrictions: "Captured campaign deadline is 2026-03-31; spend threshold depends on selected welcome package."
-    keywords: [ "Simply Cash迎新", "高達1100", "新客戶", "現金回贈" ]
-    tc_url: "https://www.sc.com/hk/credit-cards/simplycash/"
-    validity: "2026-02-28/2026-03-31"
+    restrictions: "Source campaign (to 2026-03-03) includes HKD 500 cashback for first-60-day spend >= HKD 8,000 and additional HKD 588 for qualifying PayMe account setup and fund-in requirement."
+    keywords: [ "Simply Cash迎新", "高達1088", "新客戶", "簽賬8000", "PayMe588" ]
+    tc_url: "https://hkcashrebate.com/sc-simply-cash"
+    validity: "2026-01-01/2026-03-03"
 as_of: "2026-02-28"
 sources:
   - "https://www.sc.com/hk/credit-cards/simplycash/"
-
+  - "https://hkcashrebate.com/sc-simply-cash"

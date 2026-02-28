@@ -23,15 +23,15 @@ offers:
     registration_required: true
     restrictions: "Monthly extra rebate cap is HKD 150. Tier-specific rates differ between Chill World and Chill Platinum; monthly spend threshold applies."
     keywords: [ "Chill Card", "Chill World", "5%回贈", "10%回贈", "McDonald's", "foodpanda", "HKTVmall" ]
-    tc_url: "https://hkcashrebate.com/boc-chill-card/"
+    tc_url: "https://hkcashrebate.com/boc-chill"
     validity: null
-  - title: "Welcome rebate up to HKD 800"
+  - title: "Welcome rebate up to HKD 500"
     offer_type: "welcome"
-    description: "New BOCHK cardholders can receive up to HKD 800 welcome rebate after reaching campaign spending targets."
+    description: "New Chill World cardholders can receive up to HKD 500 rebate after first-60-day spending milestones; other tiers/customer types have lower caps."
     reward_type: "cashback"
     reward_rate_percent: null
-    reward_cap_hkd: 800
-    min_spend_hkd: 6000
+    reward_cap_hkd: 500
+    min_spend_hkd: 5000
     spend_cap_hkd: null
     spend_cap_period: "campaign"
     payment_methods: [ "Card Present", "Online" ]
@@ -40,12 +40,11 @@ offers:
     excluded_merchants: [ ]
     excluded_categories: [ ]
     registration_required: false
-    restrictions: "Campaign windows vary by application channel; captured snapshot indicates an application period ending 2026-02-28."
-    keywords: [ "中銀Chill迎新", "高達800", "新客戶", "簽賬獎賞" ]
-    tc_url: "https://hkcashrebate.com/boc-chill-card/"
-    validity: "2025-11-18/2026-02-28"
+    restrictions: "Source campaign (to 2026-12-31) indicates: new Chill World HKD 5,000/60 days -> HKD 500; new Chill Platinum HKD 4,000/60 days -> HKD 300; existing customer applying Chill Card HKD 4,000/60 days -> HKD 200."
+    keywords: [ "中銀Chill迎新", "高達500", "Chill World", "Chill Platinum", "新客戶", "現有客戶" ]
+    tc_url: "https://hkcashrebate.com/boc-chill"
+    validity: "2026-01-01/2026-12-31"
 as_of: "2026-02-28"
 sources:
   - "https://www.bochk.com/en/creditcard/details/chillcard.html"
-  - "https://hkcashrebate.com/boc-chill-card/"
-
+  - "https://hkcashrebate.com/boc-chill"

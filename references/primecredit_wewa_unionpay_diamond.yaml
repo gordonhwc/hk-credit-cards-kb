@@ -13,25 +13,25 @@ offers:
     reward_rate_percent: 4.0
     reward_cap_hkd: 200
     min_spend_hkd: 1500
-    spend_cap_hkd: 5000
+    spend_cap_hkd: 5556
     spend_cap_period: "monthly"
     payment_methods: [ "Card Present", "Online", "Mobile Wallet" ]
     eligible_merchants: [ ]
-    eligible_categories: [ "Dining", "Food Delivery", "Ride-hailing", "Travel" ]
+    eligible_categories: [ "Dining", "Food Delivery", "Online Shopping", "Ride-hailing", "Travel" ]
     excluded_merchants: [ ]
     excluded_categories: [ ]
     registration_required: true
-    restrictions: "Captured source indicates monthly spend threshold HKD 1,500 and cashback cap HKD 200 for boosted categories."
+    restrictions: "Source indicates base 0.4% plus extra 3.6% on selected categories with monthly spend threshold HKD 1,500; boosted cashback cap is HKD 200 monthly."
     keywords: [ "WeWa", "4%回贈", "自選回贈", "餐飲", "外賣", "Call車", "旅遊" ]
-    tc_url: "https://www.wewacard.com/choose-your-cash-rebate/"
-    validity: "2026-01-01/2026-12-31"
+    tc_url: "https://hkcashrebate.com/pc-wewa"
+    validity: "2026-01-01/2026-06-30"
   - title: "Welcome rewards up to HKD 700 equivalent"
     offer_type: "welcome"
     description: "New applicants can receive up to HKD 700 equivalent in welcome rewards under active acquisition campaigns."
     reward_type: "mixed"
     reward_rate_percent: null
     reward_cap_hkd: 700
-    min_spend_hkd: null
+    min_spend_hkd: 8000
     spend_cap_hkd: null
     spend_cap_period: "campaign"
     payment_methods: [ "Card Present", "Online" ]
@@ -40,13 +40,12 @@ offers:
     excluded_merchants: [ ]
     excluded_categories: [ ]
     registration_required: false
-    restrictions: "Campaign can combine spending rebates and media-channel bonuses; exact trigger criteria vary by campaign period."
+    restrictions: "Source snapshot (to 2026-02-28) indicates welcome combinations up to HKD 700 for new customers; existing-cardholder and student paths with lower caps are also listed."
     keywords: [ "WeWa迎新", "高達700", "銀聯", "鑽石卡", "新客戶" ]
-    tc_url: "https://www.wewacard.com/"
-    validity: null
+    tc_url: "https://hkcashrebate.com/pc-wewa"
+    validity: "2026-01-01/2026-02-28"
 as_of: "2026-02-28"
 sources:
   - "https://www.wewacard.com/"
   - "https://www.wewacard.com/choose-your-cash-rebate/"
-  - "https://hkcashrebate.com/wewa-card/"
-
+  - "https://hkcashrebate.com/pc-wewa"

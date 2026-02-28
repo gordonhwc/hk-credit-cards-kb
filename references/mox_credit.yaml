@@ -8,7 +8,7 @@ annual_fee_notes: "Captured sources focus on rewards; explicit annual-fee statem
 offers:
   - title: "Everywhere cashback up to 2% (unlimited)"
     offer_type: "spending"
-    description: "Mox Credit pays 1% unlimited cashback by default, upgraded to 2% when qualifying balance or payroll conditions are met."
+    description: "Mox Credit pays 1% unlimited cashback by default, upgraded to 2% when qualifying balance conditions are met."
     reward_type: "cashback"
     reward_rate_percent: 2.0
     reward_cap_hkd: null
@@ -21,9 +21,9 @@ offers:
     excluded_merchants: [ ]
     excluded_categories: [ ]
     registration_required: false
-    restrictions: "2% tier requires either eligible balance of HKD 250,000+ or payroll transaction of HKD 25,000+ at transaction time."
-    keywords: [ "Mox Credit", "2% cashback", "1% cashback", "無上限", "薪金入賬", "25萬結餘" ]
-    tc_url: "https://mox.com/features/mox-credit/"
+    restrictions: "Source highlights 2% tier requirement of HKD 250,000+ eligible Mox balance (with 1% as default tier)."
+    keywords: [ "Mox Credit", "2% cashback", "1% cashback", "無上限", "25萬結餘" ]
+    tc_url: "https://hkcashrebate.com/mox-bank"
     validity: null
   - title: "Supermarket and grocery spend up to 3% cashback"
     offer_type: "spending"
@@ -42,7 +42,7 @@ offers:
     registration_required: false
     restrictions: "Category mapping follows Mox merchant coding; ineligible MCCs do not receive boosted rate."
     keywords: [ "Mox 3%", "超市", "買餸", "Groceries" ]
-    tc_url: "https://hkcashrebate.com/mox-credit/"
+    tc_url: "https://hkcashrebate.com/mox-bank"
     validity: null
   - title: "Miles mode at HKD 4 = 1 mile"
     offer_type: "points"
@@ -66,4 +66,4 @@ offers:
 as_of: "2026-02-28"
 sources:
   - "https://mox.com/features/mox-credit/"
-  - "https://hkcashrebate.com/mox-credit/"
+  - "https://hkcashrebate.com/mox-bank"

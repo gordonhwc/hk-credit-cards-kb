@@ -16,14 +16,14 @@ offers:
     spend_cap_hkd: 2000
     spend_cap_period: "monthly"
     payment_methods: [ "Card Present", "Online", "BoC Pay+" ]
-    eligible_merchants: [ "Klook", "Trip.com", "Amazon", "iHerb", "Sasa HK", "hutchgo", "myTV Super", "big big shop" ]
-    eligible_categories: [ "Travel", "Online Shopping", "Lifestyle" ]
+    eligible_merchants: [ "Keeta", "美團", "大眾點評", "高鐵（香港西九龍站櫃位及售票機）", "滴滴出行", "京東港澳站", "惠康", "Market Place", "Oliver's the Delicatessen", "3hreesixty" ]
+    eligible_categories: [ "Food Delivery", "Travel", "Ride-hailing", "E-commerce", "Supermarket" ]
     excluded_merchants: [ ]
     excluded_categories: [ ]
     registration_required: true
-    restrictions: "Merchant list and campaign details are updated by BOCHK; rate shown as equivalent redemption value."
-    keywords: [ "中銀Go", "Go商戶", "5%回贈", "Klook", "Trip.com", "Amazon", "iHerb" ]
-    tc_url: "https://hkcashrebate.com/bochk-go-card/"
+    restrictions: "Source shows designated-merchant spend cap HKD 2,000 per month for this 5% equivalent block. Supermarket merchants in this block exclude self-checkout and online transactions for 惠康/Market Place/Oliver's/3hreesixty."
+    keywords: [ "中銀Go", "Go商戶", "5%回贈", "Keeta", "美團", "大眾點評", "滴滴", "京東港澳站", "惠康", "Market Place", "Oliver's", "3hreesixty", "高鐵" ]
+    tc_url: "https://hkcashrebate.com/boc-go"
     validity: null
   - title: "Registered mobile spending up to 8% equivalent rebate"
     offer_type: "spending"
@@ -31,7 +31,7 @@ offers:
     reward_type: "points"
     reward_rate_percent: 8.0
     reward_cap_hkd: null
-    min_spend_hkd: 0
+    min_spend_hkd: 1500
     spend_cap_hkd: null
     spend_cap_period: "monthly"
     payment_methods: [ "Apple Pay", "Google Pay", "Huawei Pay", "BoC Pay+" ]
@@ -40,9 +40,9 @@ offers:
     excluded_merchants: [ ]
     excluded_categories: [ ]
     registration_required: true
-    restrictions: "Monthly reward cap is 25,000 points; multiplier differs by card tier and region. Local monthly spending threshold is temporarily waived in captured campaign."
+    restrictions: "Monthly reward cap is 25,000 points; multiplier differs by card tier and region. Source states local-spend monthly threshold waiver through 2026-06-30."
     keywords: [ "中銀Go mobile", "20X積分", "8%回贈", "Apple Pay", "Google Pay", "Huawei Pay" ]
-    tc_url: "https://hkcashrebate.com/bochk-go-card/"
+    tc_url: "https://hkcashrebate.com/boc-go"
     validity: "2026-02-28/2026-06-30"
   - title: "Welcome up to HKD 500 cashback"
     offer_type: "welcome"
@@ -50,7 +50,7 @@ offers:
     reward_type: "cashback"
     reward_rate_percent: 10.0
     reward_cap_hkd: 500
-    min_spend_hkd: 4000
+    min_spend_hkd: 5000
     spend_cap_hkd: null
     spend_cap_period: "campaign"
     payment_methods: [ "Card Present", "Online", "Mobile Wallet" ]
@@ -59,12 +59,11 @@ offers:
     excluded_merchants: [ ]
     excluded_categories: [ ]
     registration_required: false
-    restrictions: "Captured campaign shows 10% cashback up to HKD 500 on first-60-day spending for new cardholders."
-    keywords: [ "中銀Go迎新", "高達500", "10%回贈", "首60日" ]
-    tc_url: "https://hkcashrebate.com/bochk-go-card/"
-    validity: null
+    restrictions: "Source campaign (to 2026-12-31) indicates new customers can get 10% mobile-spending rebate up to HKD 500 in first 60 days (spend cap HKD 5,000); existing customers can get 5% up to HKD 200 (spend cap HKD 4,000)."
+    keywords: [ "中銀Go迎新", "高達500", "10%回贈", "首60日", "手機簽賬", "現有客戶200" ]
+    tc_url: "https://hkcashrebate.com/boc-go"
+    validity: "2026-01-01/2026-12-31"
 as_of: "2026-02-28"
 sources:
   - "https://www.bochk.com/en/creditcard/details/gocard.html"
-  - "https://hkcashrebate.com/bochk-go-card/"
-
+  - "https://hkcashrebate.com/boc-go"

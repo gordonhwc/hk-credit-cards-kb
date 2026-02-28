@@ -82,12 +82,12 @@ offers:
     keywords: [ "WAKUWAKU", "0.4%基本獎賞", "八達通增值", "保險", "分期", "WAKU COIN有效期24個月" ]
     tc_url: "/Users/gordon/Desktop/AEONCARDWAKUWAKU_RBBD_TC.pdf"
     validity: "2026-03-01/2026-08-31"
-  - title: "Welcome up to HKD 700 rebate"
+  - title: "Welcome up to HKD 900 rebate"
     offer_type: "welcome"
-    description: "New customers can earn up to HKD 700 welcome rebate by meeting first-60-day spend requirements."
+    description: "New customers can earn up to HKD 900 welcome rebate through first-60-day spending milestones and selected promo-code/merchant tasks."
     reward_type: "cashback"
     reward_rate_percent: null
-    reward_cap_hkd: 700
+    reward_cap_hkd: 900
     min_spend_hkd: 8000
     spend_cap_hkd: null
     spend_cap_period: "campaign"
@@ -97,12 +97,12 @@ offers:
     excluded_merchants: [ ]
     excluded_categories: [ ]
     registration_required: false
-    restrictions: "Snapshot offer shows base spend requirement of HKD 8,000 in first 60 days; mobile-wallet bonus mechanics and deadline may vary by campaign wave."
-    keywords: [ "WAKUWAKU迎新", "高達700", "首60日", "新客戶" ]
-    tc_url: "https://hkcashrebate.com/aeon-card-wakuwaku/"
-    validity: "2026-02-28/2026-04-30"
+    restrictions: "Source campaign shows base HKD 500 rebate for first-60-day spend >= HKD 8,000, plus HKD 200 for mobile-wallet spend with promo code and HKD 200 for one eligible transaction in designated categories/markets (category task cap HKD 100 each)."
+    keywords: [ "WAKUWAKU迎新", "高達900", "首60日", "新客戶", "WAKU200", "電子錢包" ]
+    tc_url: "https://hkcashrebate.com/aeon-wakuwaku"
+    validity: "2026-02-01/2026-04-30"
 as_of: "2026-02-28"
 sources:
   - "https://www.aeon.com.hk/en/credit-card/creditcard-wakuwaku.html"
   - "/Users/gordon/Desktop/AEONCARDWAKUWAKU_RBBD_TC.pdf"
-  - "https://hkcashrebate.com/aeon-card-wakuwaku/"
+  - "https://hkcashrebate.com/aeon-wakuwaku"

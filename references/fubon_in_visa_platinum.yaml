@@ -13,7 +13,7 @@ offers:
     reward_rate_percent: 8.0
     reward_cap_hkd: 250
     min_spend_hkd: 1000
-    spend_cap_hkd: 3125
+    spend_cap_hkd: 3290
     spend_cap_period: "monthly"
     payment_methods: [ "Online" ]
     eligible_merchants: [ ]
@@ -21,9 +21,9 @@ offers:
     excluded_merchants: [ ]
     excluded_categories: [ ]
     registration_required: false
-    restrictions: "Additional rebate component is capped at HKD 250 per month; customer must meet monthly eligible spending threshold to unlock bonus multiplier."
+    restrictions: "Additional rebate component is capped at HKD 250 per month; source highlights monthly online-spending window from day 1 to day 25 for full rebate mechanics."
     keywords: [ "Fubon iN", "8%回贈", "20X積分", "網上簽賬", "每月上限250" ]
-    tc_url: "https://hkcashrebate.com/fubon-in-credit-card/"
+    tc_url: "https://hkcashrebate.com/fubon-in"
     validity: "2026-02-28/2026-06-30"
   - title: "Welcome HKD 150 cash rebate"
     offer_type: "welcome"
@@ -42,9 +42,9 @@ offers:
     registration_required: false
     restrictions: "Offer is tied to application period and first-3-month spend window; check latest campaign pages for exact enrollment end date."
     keywords: [ "富邦iN迎新", "150現金回贈", "首3個月", "簽賬5000" ]
-    tc_url: "https://hkcashrebate.com/fubon-in-credit-card/"
+    tc_url: "https://hkcashrebate.com/fubon-in"
     validity: "2026-02-28/2026-06-30"
 as_of: "2026-02-28"
 sources:
   - "https://fubonbank.com.hk/en/cards/credit-card-products/incard.html"
-  - "https://hkcashrebate.com/fubon-in-credit-card/"
+  - "https://hkcashrebate.com/fubon-in"

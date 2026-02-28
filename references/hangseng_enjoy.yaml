@@ -25,32 +25,32 @@ offers:
     keywords: [ "enJoy", "yuu", "4x points", "2%回贈", "7-Eleven", "Wellcome", "Mannings" ]
     tc_url: "https://www.hangseng.com/en-hk/personal/cards/products/co-branded/enjoy-card/"
     validity: null
-  - title: "Dining discounts up to 50% at designated restaurants"
+  - title: "Designated weekday shopping discounts up to 8% off"
     offer_type: "recurring-benefit"
-    description: "Selected dining outlets in partner groups can provide up to 50% discount for enJoy cardholders."
+    description: "enJoy offers recurring weekday discounts at designated chains, including around 92折 at selected supermarkets and 94-95折 at selected health/beauty and supermarket channels."
     reward_type: "discount"
-    reward_rate_percent: 50.0
+    reward_rate_percent: 8.0
     reward_cap_hkd: null
     min_spend_hkd: null
     spend_cap_hkd: null
     spend_cap_period: null
-    payment_methods: [ "Card Present" ]
-    eligible_merchants: [ "Maxim's Chinese Cuisine" ]
-    eligible_categories: [ "Dining" ]
+    payment_methods: [ "Card Present", "Online" ]
+    eligible_merchants: [ "Wellcome", "Market Place", "PARKnSHOP", "Watsons" ]
+    eligible_categories: [ "Supermarket", "Health & Beauty", "Lifestyle" ]
     excluded_merchants: [ ]
     excluded_categories: [ ]
     registration_required: false
-    restrictions: "Discount level depends on restaurant and time slot; blackout dates and set-menu exclusions may apply."
-    keywords: [ "enJoy餐飲", "50%折扣", "Maxim's", "美心中菜" ]
-    tc_url: "https://hkcashrebate.com/hangseng-enjoy-card/"
+    restrictions: "Source highlights offer-by-weekday mechanics (for example Monday/Tue/Fri/Wed schedules at designated chains); exact available outlets and stacking rules follow current enJoy pages."
+    keywords: [ "enJoy", "星期一優惠", "星期二優惠", "星期三優惠", "星期五優惠", "Wellcome", "PARKnSHOP", "Watsons", "92折", "95折" ]
+    tc_url: "https://hkcashrebate.com/hsb-enjoy"
     validity: null
   - title: "Welcome up to HKD 700 equivalent (140,000 yuu points)"
     offer_type: "welcome"
-    description: "New customers can receive up to 140,000 yuu points (about HKD 700 equivalent) under the current welcome campaign."
+    description: "New-to-bank customers can receive up to 140,000 yuu points (about HKD 700 equivalent) under current campaign terms; existing-cardholder path has a lower cap."
     reward_type: "points"
     reward_rate_percent: null
     reward_cap_hkd: 700
-    min_spend_hkd: null
+    min_spend_hkd: 7000
     spend_cap_hkd: null
     spend_cap_period: "campaign"
     payment_methods: [ "Card Present", "Online" ]
@@ -59,12 +59,11 @@ offers:
     excluded_merchants: [ ]
     excluded_categories: [ ]
     registration_required: true
-    restrictions: "Welcome bundle composition and spend conditions vary by campaign period and acquisition channel."
-    keywords: [ "enJoy迎新", "140000 yuu points", "高達700", "新客戶" ]
-    tc_url: "https://hkcashrebate.com/hangseng-enjoy-card/"
-    validity: null
+    restrictions: "Source (to 2026-12-31) indicates new-to-bank customers can get 140,000 yuu points by spending HKD 7,000; existing-to-bank route can get 60,000 yuu points (~HKD 300) with HKD 6,000 spend and an extra qualifying transaction."
+    keywords: [ "enJoy迎新", "140000 yuu points", "60000 yuu points", "高達700", "現有客戶300", "新客戶" ]
+    tc_url: "https://hkcashrebate.com/hsb-enjoy"
+    validity: "2026-01-01/2026-12-31"
 as_of: "2026-02-28"
 sources:
   - "https://www.hangseng.com/en-hk/personal/cards/products/co-branded/enjoy-card/"
-  - "https://hkcashrebate.com/hangseng-enjoy-card/"
-
+  - "https://hkcashrebate.com/hsb-enjoy"
