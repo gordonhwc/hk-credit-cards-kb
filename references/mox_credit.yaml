@@ -1,69 +1,29 @@
-id: mox_credit
+id: "mox_credit"
 name_en: "Mox Credit Card"
 name_zh: "Mox信用卡"
 issuer: "Mox"
 payment_network: "Mastercard"
 official_url: "https://mox.com/features/mox-credit/"
-annual_fee_notes: "Captured sources focus on rewards; explicit annual-fee statement should be verified against latest Mox KFS."
-offers:
-  - title: "Everywhere cashback up to 2% (unlimited)"
-    offer_type: "spending"
-    description: "Mox Credit pays 1% unlimited cashback by default, upgraded to 2% when qualifying balance conditions are met."
-    reward_type: "cashback"
-    reward_rate_percent: 2.0
-    reward_cap_hkd: null
-    min_spend_hkd: null
-    spend_cap_hkd: null
-    spend_cap_period: null
-    payment_methods: [ "Card Present", "Online", "Mobile Wallet" ]
-    eligible_merchants: [ ]
-    eligible_categories: [ "General Spend" ]
-    excluded_merchants: [ ]
-    excluded_categories: [ ]
-    registration_required: false
-    restrictions: "Source highlights 2% tier requirement of HKD 250,000+ eligible Mox balance (with 1% as default tier)."
-    keywords: [ "Mox Credit", "2% cashback", "1% cashback", "無上限", "25萬結餘" ]
-    tc_url: "https://hkcashrebate.com/mox-bank"
+promo_guide_url: "https://hkcashrebate.com/mox-bank"
+promotions:
+  - description: >
+      Cashback structure shown on source page: 1% unlimited cashback on eligible Mox Credit spend, and 2% unlimited
+      cashback if Mox current-account balance condition (HKD 250,000) is met.
+    tc_url: "https://mox.com/static/EARNINMOXMH_Promotion_TnCs.pdf"
     validity: null
-  - title: "Supermarket and grocery spend up to 3% cashback"
-    offer_type: "spending"
-    description: "Eligible supermarket and grocery transactions can earn up to 3% cashback with no stated cap in captured source."
-    reward_type: "cashback"
-    reward_rate_percent: 3.0
-    reward_cap_hkd: null
-    min_spend_hkd: null
-    spend_cap_hkd: null
-    spend_cap_period: null
-    payment_methods: [ "Card Present", "Online" ]
-    eligible_merchants: [ ]
-    eligible_categories: [ "Supermarket", "Grocery" ]
-    excluded_merchants: [ ]
-    excluded_categories: [ ]
-    registration_required: false
-    restrictions: "Category mapping follows Mox merchant coding; ineligible MCCs do not receive boosted rate."
-    keywords: [ "Mox 3%", "超市", "買餸", "Groceries" ]
-    tc_url: "https://hkcashrebate.com/mox-bank"
+  - description: >
+      Supermarket and grocery-store spend is shown as 3% unlimited cashback.
+    tc_url: null
     validity: null
-  - title: "Miles mode at HKD 4 = 1 mile"
-    offer_type: "points"
-    description: "Cardholders can switch to Miles mode and earn 1 mile per HKD 4 spending."
-    reward_type: "miles"
-    reward_rate_percent: null
-    reward_cap_hkd: null
-    min_spend_hkd: null
-    spend_cap_hkd: null
-    spend_cap_period: null
-    payment_methods: [ "Card Present", "Online", "Mobile Wallet" ]
-    eligible_merchants: [ ]
-    eligible_categories: [ "General Spend", "Miles" ]
-    excluded_merchants: [ ]
-    excluded_categories: [ ]
-    registration_required: true
-    restrictions: "Miles conversion options and airline partners depend on latest Mox rewards settings in-app."
-    keywords: [ "Mox Miles", "HKD4=1 mile", "里數", "信用卡里數" ]
-    tc_url: "https://mox.com/features/mox-credit/"
+  - description: >
+      The source page shows an onboarding campaign flow with invite code "EARNINMOXMH" and HKD 4,000 spend target,
+      but multiple campaign reward lines are struck through and the displayed campaign window is historical.
+    tc_url: "https://mhgprod-cdn-efeke3f5guabc4dh.z02.azurefd.net/moneyhero/strapi-uploads/BKA_Mox_Cash_Back_202510_11_TNC_BAU_FPS_24_Oct_4_Dec_docx_cac0f63ba0.pdf"
+    validity: "Historical window shown: 2025-11-01 to 2025-11-16"
+  - description: >
+      For the onboarding flow described on page, the qualifying-spend note excludes items such as cash advances,
+      card balance-instant-settlement features, most e-wallet funding, stored-value top-ups, and refunded/canceled
+      transactions.
+    tc_url: null
     validity: null
-as_of: "2026-02-28"
-sources:
-  - "https://mox.com/features/mox-credit/"
-  - "https://hkcashrebate.com/mox-bank"
+as_of: "2026-03-01"

@@ -1,50 +1,34 @@
-id: aeon_jcb
+id: "aeon_jcb"
 name_en: "AEON JCB Credit Card"
 name_zh: "AEON JCB信用卡"
 issuer: "AEON"
 payment_network: "JCB"
 official_url: "https://www.aeon.com.hk/tc/credit-card/creditcard-jusco-jcb.html?link_id=hk_zh_aeon"
-annual_fee_hkd: 0
-offers:
-  - title: "AEON Purple 5X points on spending categories"
-    offer_type: "spending"
-    description: "After registration in AEON Purple, eligible spending in selected 'food, clothing, housing and transportation' categories can earn up to 5X points (around 2% equivalent rebate value)."
-    reward_type: "points"
-    reward_rate_percent: 2.0
-    reward_cap_hkd: null
-    min_spend_hkd: null
-    spend_cap_hkd: null
-    spend_cap_period: "monthly"
-    payment_methods: [ "Card Present", "Online" ]
-    eligible_merchants: [ ]
-    eligible_categories: [ "Dining", "Shopping", "Lifestyle", "Transportation" ]
-    excluded_merchants: [ ]
-    excluded_categories: [ ]
-    registration_required: true
-    restrictions: "Official page indicates monthly cap of 25,000 points per selected category in Purple; exact category mapping and cutoff time follow latest AEON terms."
-    keywords: [ "AEON JCB", "AEON Purple", "紫賞生活", "5X積分", "2%回贈", "食住行" ]
-    tc_url: "https://www.aeon.com.hk/tc/credit-card/benefits-and-promotions/aeon-card-waiver-program/aeon-purple.html"
+promo_guide_url: "https://hkcashrebate.com/aeon-card"
+promotions:
+  - description: >
+      "Purple Lifestyle" campaign: after in-app registration, local dining, local transport, and AEON Stores
+      spend via Apple Pay / Google Pay / UnionPay QR can earn up to 15X points (about 6% cashback); physical
+      card spend can earn up to 5X points (about 2%). Extra points cap is 25,000 points per category per month
+      (three categories combined cap 75,000 points). The page also states local dining via online platforms is
+      excluded and AEON JCB is not supported for mobile-payment earning in this campaign.
+    tc_url: "https://hkcashrebate.com/aeon-purple-promo"
+    validity: "Until 2026-08-31"
+  - description: >
+      New-cardholder welcome (AEON website/App applications): within 60 days after approval, first transaction
+      gives 50,000 points (up to HKD 200), HKD 6,000 spend gives 100,000 points (up to HKD 400), and Apple Pay /
+      Google Pay spend of HKD 1,000 within those spends gives extra 25,000 points (up to HKD 100). Total welcome
+      value shown is up to HKD 700. Eligibility is for customers without an AEON credit card in the previous
+      12 months; e-wallet transactions are excluded.
+    tc_url: "https://www.aeon.com.hk/tc/privilege/promotion_welcomeoffer_0325.html"
+    validity: "Until 2026-04-30"
+  - description: >
+      Regular card features on the source page include AEON member-price privileges and 5% off at AEON on the 2nd
+      and 20th of each month.
+    tc_url: null
     validity: null
-  - title: "New-customer welcome up to HKD 600 rebate"
-    offer_type: "welcome"
-    description: "New cardholders can receive up to HKD 600 welcome rebate on eligible spending in the first 60 days after card issuance."
-    reward_type: "cashback"
-    reward_rate_percent: null
-    reward_cap_hkd: 600
-    min_spend_hkd: 6000
-    spend_cap_hkd: null
-    spend_cap_period: "campaign"
-    payment_methods: [ "Card Present", "Online" ]
-    eligible_merchants: [ ]
-    eligible_categories: [ ]
-    excluded_merchants: [ ]
-    excluded_categories: [ ]
-    registration_required: false
-    restrictions: "Welcome mechanics vary by application channel and campaign bundle; verify latest AEON welcome T&Cs before applying."
-    keywords: [ "AEON迎新", "高達600", "新客戶", "60日簽賬" ]
-    tc_url: "https://www.aeon.com.hk/tc/credit-card/benefits-and-promotions/aeon-card-waiver-program/aeon-purple.html"
+  - description: >
+      Annual fee is described as permanently waived.
+    tc_url: null
     validity: null
-as_of: "2026-02-28"
-sources:
-  - "https://www.aeon.com.hk/tc/credit-card/creditcard-jusco-jcb.html?link_id=hk_zh_aeon"
-  - "https://www.aeon.com.hk/tc/credit-card/benefits-and-promotions/aeon-card-waiver-program/aeon-purple.html"
+as_of: "2026-03-01"

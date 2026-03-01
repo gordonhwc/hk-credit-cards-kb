@@ -1,50 +1,29 @@
-id: fubon_in_visa_platinum
+id: "fubon_in_visa_platinum"
 name_en: "Fubon iN VISA Platinum Card"
 name_zh: "富邦iN VISA白金卡"
 issuer: "Fubon Bank (Hong Kong)"
 payment_network: "Visa"
 official_url: "https://fubonbank.com.hk/en/cards/credit-card-products/incard.html"
-annual_fee_notes: "Official material highlights first 3-year annual-fee waiver; post-waiver fee follows prevailing fee schedule."
-offers:
-  - title: "Online spending up to 8% cash rebate"
-    offer_type: "spending"
-    description: "Eligible online spending can earn up to 8% rebate (20X points equivalent), including basic and promotional components."
-    reward_type: "cashback"
-    reward_rate_percent: 8.0
-    reward_cap_hkd: 250
-    min_spend_hkd: 1000
-    spend_cap_hkd: 3290
-    spend_cap_period: "monthly"
-    payment_methods: [ "Online" ]
-    eligible_merchants: [ ]
-    eligible_categories: [ "Online" ]
-    excluded_merchants: [ ]
-    excluded_categories: [ ]
-    registration_required: false
-    restrictions: "Additional rebate component is capped at HKD 250 per month; source highlights monthly online-spending window from day 1 to day 25 for full rebate mechanics."
-    keywords: [ "Fubon iN", "8%回贈", "20X積分", "網上簽賬", "每月上限250" ]
-    tc_url: "https://hkcashrebate.com/fubon-in"
-    validity: "2026-02-28/2026-06-30"
-  - title: "Welcome HKD 150 cash rebate"
-    offer_type: "welcome"
-    description: "New customers can receive HKD 150 cash rebate by spending HKD 5,000 within the first 3 months."
-    reward_type: "cashback"
-    reward_rate_percent: null
-    reward_cap_hkd: 150
-    min_spend_hkd: 5000
-    spend_cap_hkd: null
-    spend_cap_period: "campaign"
-    payment_methods: [ "Card Present", "Online" ]
-    eligible_merchants: [ ]
-    eligible_categories: [ ]
-    excluded_merchants: [ ]
-    excluded_categories: [ ]
-    registration_required: false
-    restrictions: "Offer is tied to application period and first-3-month spend window; check latest campaign pages for exact enrollment end date."
-    keywords: [ "富邦iN迎新", "150現金回贈", "首3個月", "簽賬5000" ]
-    tc_url: "https://hkcashrebate.com/fubon-in"
-    validity: "2026-02-28/2026-06-30"
-as_of: "2026-02-28"
-sources:
-  - "https://fubonbank.com.hk/en/cards/credit-card-products/incard.html"
-  - "https://hkcashrebate.com/fubon-in"
+promo_guide_url: "https://hkcashrebate.com/fubon-in"
+promotions:
+  - description: >
+      Online-spend offer gives up to 20X points (about 8% cashback). Monthly bonus-spend range shown is minimum
+      HKD 1,000 and maximum HKD 3,290. The page stresses quota is based on posting date (not transaction date).
+    tc_url: "https://www.fubonbank.com.hk/tc/cards/credit-card-products/incard.html"
+    validity: "Until 2026-06-30"
+  - description: >
+      New-customer welcome: customers with no Fubon principal or supplementary credit card in previous 6 months can
+      get HKD 150 cashback after HKD 5,000 qualifying spend within 3 months after approval. Welcome cashback is
+      shown as credited within 6 weeks after meeting spend requirement.
+    tc_url: "https://www.fubonbank.com.hk/tc/cards/credit-card-products/incard.html"
+    validity: "Until 2026-06-30"
+  - description: >
+      No registration is required for the core online-reward program. Bonus points are shown as credited within
+      3 months after spend month and can be redeemed in Fubon+ App at 250 points = HKD 1.
+    tc_url: null
+    validity: null
+  - description: >
+      Annual-fee structure shown on the source page: first 3 years waived, then listed annual fee HKD 1,700.
+    tc_url: null
+    validity: null
+as_of: "2026-03-01"

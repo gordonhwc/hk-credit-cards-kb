@@ -1,50 +1,35 @@
-id: bochk_chill
-name_en: "BOC Chill Card"
-name_zh: "中銀Chill Card"
+id: "bochk_chill"
+name_en: "BOC Chill World Mastercard"
+name_zh: "中銀Chill World萬事達卡"
 issuer: "BOCHK"
 payment_network: "Mastercard"
 official_url: "https://www.bochk.com/en/creditcard/details/chillcard.html"
-annual_fee_notes: "Annual-fee arrangement varies by Chill card tier and latest BOCHK fee schedule."
-offers:
-  - title: "Chill World up to 5% online/overseas and 10% designated merchants"
-    offer_type: "spending"
-    description: "Registered Chill World users can get 5% total rebate for online and overseas spending and up to 10% at designated Chill merchants."
-    reward_type: "cashback"
-    reward_rate_percent: 10.0
-    reward_cap_hkd: 150
-    min_spend_hkd: 1500
-    spend_cap_hkd: null
-    spend_cap_period: "monthly"
-    payment_methods: [ "Card Present", "Online", "Mobile Wallet" ]
-    eligible_merchants: [ "McDonald's", "foodpanda", "HKTVmall", "Trip.com", "Klook" ]
-    eligible_categories: [ "Online", "Overseas", "Dining", "Lifestyle" ]
-    excluded_merchants: [ ]
-    excluded_categories: [ ]
-    registration_required: true
-    restrictions: "Monthly extra rebate cap is HKD 150. Tier-specific rates differ between Chill World and Chill Platinum; monthly spend threshold applies."
-    keywords: [ "Chill Card", "Chill World", "5%回贈", "10%回贈", "McDonald's", "foodpanda", "HKTVmall" ]
-    tc_url: "https://hkcashrebate.com/boc-chill"
+promo_guide_url: "https://hkcashrebate.com/boc-chill"
+promotions:
+  - description: >
+      For Chill World Mastercard, online and overseas spend can earn extra 4.6% cashback on top of base rewards
+      (shown as up to 5% total) without minimum-spend requirement.
+    tc_url: "https://www.bochk.com/dam/boccreditcard/chillcard/chill_tnc_TC.pdf"
     validity: null
-  - title: "Welcome rebate up to HKD 500"
-    offer_type: "welcome"
-    description: "New Chill World cardholders can receive up to HKD 500 rebate after first-60-day spending milestones; other tiers/customer types have lower caps."
-    reward_type: "cashback"
-    reward_rate_percent: null
-    reward_cap_hkd: 500
-    min_spend_hkd: 5000
-    spend_cap_hkd: null
-    spend_cap_period: "campaign"
-    payment_methods: [ "Card Present", "Online" ]
-    eligible_merchants: [ ]
-    eligible_categories: [ ]
-    excluded_merchants: [ ]
-    excluded_categories: [ ]
-    registration_required: false
-    restrictions: "Source campaign (to 2026-12-31) indicates: new Chill World HKD 5,000/60 days -> HKD 500; new Chill Platinum HKD 4,000/60 days -> HKD 300; existing customer applying Chill Card HKD 4,000/60 days -> HKD 200."
-    keywords: [ "中銀Chill迎新", "高達500", "Chill World", "Chill Platinum", "新客戶", "現有客戶" ]
-    tc_url: "https://hkcashrebate.com/boc-chill"
-    validity: "2026-01-01/2026-12-31"
-as_of: "2026-02-28"
-sources:
-  - "https://www.bochk.com/en/creditcard/details/chillcard.html"
-  - "https://hkcashrebate.com/boc-chill"
+  - description: >
+      For Chill World Mastercard, designated Chill merchants can earn extra 9.6% cashback (up to 10% total) after
+      monthly in-store retail spend reaches HKD 1,500. Merchant groups include dining/retail/entertainment brands
+      such as McDonald's, Starbucks, Pacific Coffee, UNIQLO, GU, IKEA, Netflix, Disney+, App Store, Google Play,
+      Spotify, YouTube, and cinema chains. Monthly extra cashback cap is HKD 150.
+    tc_url: "https://www.bochk.com/dam/boccreditcard/chillcard/chill_tnc_TC.pdf"
+    validity: null
+  - description: >
+      Bank welcome offer: for Chill World Mastercard, new BOCHK credit-card customers (no BOCHK credit card in the
+      previous 12 months) can get HKD 500 after HKD 5,000 qualifying spend in issue month plus next two calendar
+      months; existing customers can get HKD 200 after HKD 5,000 qualifying spend. The page also lists a Chill
+      Platinum path (HKD 300 new-customer offer at HKD 3,000 spend). E-wallet transfers and Octopus AAV are marked
+      excluded.
+    tc_url: "https://www.bochk.com/dam/boccreditcard/chillcard/chill_wg_tc.pdf"
+    validity: "Until 2026-12-31"
+  - description: >
+      A source-page affiliate bonus is shown for applications submitted from 2026-03-01 to 2026-03-31 18:00 HKT via
+      specified links, with approval by 2026-04-30 and form submission within 7 days; gift options include HKD 800
+      gift cards or selected physical gifts.
+    tc_url: "https://mhgprod.blob.core.windows.net/moneyhero/strapi-uploads/CC_BOC_Chill_and_Cheers_and_GO_202603_TNC_04033622d7.pdf"
+    validity: "2026-03-01 to 2026-03-31"
+as_of: "2026-03-01"

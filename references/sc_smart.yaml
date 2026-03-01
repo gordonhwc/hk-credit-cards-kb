@@ -1,88 +1,35 @@
-id: sc_smart
+id: "sc_smart"
 name_en: "Standard Chartered Smart Credit Card"
 name_zh: "渣打Smart信用卡"
 issuer: "Standard Chartered"
 payment_network: "Visa"
 official_url: "https://www.sc.com/hk/credit-cards/smart/"
-annual_fee_hkd: 0
-offers:
-  - title: "Designated merchants up to 5% cashback"
-    offer_type: "spending"
-    description: "Designated merchant transactions can earn up to 5% cashback (base + extra components) when monthly eligible spending reaches required tier."
-    reward_type: "cashback"
-    reward_rate_percent: 5.0
-    reward_cap_hkd: 250
-    min_spend_hkd: 4000
-    spend_cap_hkd: 5000
-    spend_cap_period: "monthly"
-    payment_methods: [ "Card Present", "Online", "Mobile Wallet" ]
-    eligible_merchants: [ "HKTVmall", "foodpanda", "Deliveroo", "Amazon", "Taobao", "Uber", "Uber Eats", "Trip.com", "Klook", "KKday" ]
-    eligible_categories: [ "Online Shopping", "Food Delivery", "Ride-hailing", "Travel" ]
-    excluded_merchants: [ ]
-    excluded_categories: [ ]
-    registration_required: false
-    restrictions: "Source indicates monthly eligible spend threshold HKD 4,000 for extra-rate unlock; designated-spend cap HKD 5,000 and extra cashback cap HKD 250 monthly."
-    keywords: [ "SC Smart", "5%回贈", "指定商戶", "HKTVmall", "foodpanda", "Deliveroo", "Uber", "Klook", "KKday" ]
-    tc_url: "https://hkcashrebate.com/sc-smart"
+promo_guide_url: "https://hkcashrebate.com/sc-smart"
+promotions:
+  - description: >
+      Monthly statement-cycle retail spend threshold HKD 4,000 unlocks rewards: designated merchants at 5%
+      cashback (monthly cap HKD 5,000 merchant spend) and base spend at 0.56% cashback.
+    tc_url: "https://av.sc.com/hk/zh/content/docs/hk-promo-smart-tnc.pdf"
     validity: null
-  - title: "General spending 0.56% cashback (monthly spend HKD 4,000-14,999)"
-    offer_type: "spending"
-    description: "General eligible spending earns 0.56% cashback when monthly eligible spending is between HKD 4,000 and HKD 14,999."
-    reward_type: "cashback"
-    reward_rate_percent: 0.56
-    reward_cap_hkd: null
-    min_spend_hkd: 4000
-    spend_cap_hkd: null
-    spend_cap_period: "monthly"
-    payment_methods: [ "Card Present", "Online" ]
-    eligible_merchants: [ ]
-    eligible_categories: [ "Local Retail", "Overseas", "General Spend" ]
-    excluded_merchants: [ ]
-    excluded_categories: [ ]
-    registration_required: false
-    restrictions: "Rate and tier thresholds follow Smart card monthly eligible-spend bands in source snapshot."
-    keywords: [ "SC Smart一般簽賬", "0.56%回贈", "每月4000", "基本回贈" ]
-    tc_url: "https://hkcashrebate.com/sc-smart"
+  - description: >
+      If monthly statement-cycle retail spend reaches HKD 15,000, base spend is shown as 1.2% cashback (unlimited).
+      Source also highlights no foreign-currency fee and no CBF fee.
+    tc_url: "https://av.sc.com/hk/zh/content/docs/hk-promo-smart-tnc.pdf"
     validity: null
-  - title: "General spending 1.2% cashback (monthly spend HKD 15,000+)"
-    offer_type: "spending"
-    description: "General eligible spending earns up to 1.2% cashback when monthly eligible spending reaches HKD 15,000 or above."
-    reward_type: "cashback"
-    reward_rate_percent: 1.2
-    reward_cap_hkd: null
-    min_spend_hkd: 15000
-    spend_cap_hkd: null
-    spend_cap_period: "monthly"
-    payment_methods: [ "Card Present", "Online" ]
-    eligible_merchants: [ ]
-    eligible_categories: [ "Local Retail", "Overseas", "General Spend" ]
-    excluded_merchants: [ ]
-    excluded_categories: [ ]
-    registration_required: false
-    restrictions: "High-spend tier applies from monthly eligible spend HKD 15,000, based on source summary."
-    keywords: [ "SC Smart一般簽賬", "1.2%回贈", "每月15000", "高消費檔" ]
-    tc_url: "https://hkcashrebate.com/sc-smart"
+  - description: >
+      Bank welcome offer for new-to-bank customers (no SC/MANHATTAN principal card in previous 6 months):
+      no-spend HKD 288 seasonal bonus plus HKD 800 after HKD 3,500 qualifying spend within 1 month after approval
+      (total HKD 1,088). E-wallet transfer and Octopus AAV are listed as excluded for welcome qualification.
+    tc_url: "https://av.sc.com/hk/content/docs/hk-cc-tncs-downloadnow.pdf"
+    validity: "Until 2026-03-03"
+  - description: >
+      A source-page affiliate extra-offer block is shown for 2026-03-01 to 2026-03-31 with no-spend HKD 800 gift
+      options via designated link/form flow and post-approval screenshot submission.
+    tc_url: "https://mhgprod.blob.core.windows.net/moneyhero/strapi-uploads/CC_SCB_Simply_Cash_Smart_202603_TNC_BAU_Feb27_Mar31_1ad1303a8b.pdf"
+    validity: "2026-03-01 to 2026-03-31"
+  - description: >
+      Source page states annual fee is permanently waived, and warns that if monthly statement-cycle retail spend is
+      below HKD 4,000 there is no cashback for that cycle.
+    tc_url: null
     validity: null
-  - title: "Welcome offer up to HKD 1,088 cashback"
-    offer_type: "welcome"
-    description: "New customers can receive up to HKD 1,088 cashback under current campaign mechanics."
-    reward_type: "cashback"
-    reward_rate_percent: null
-    reward_cap_hkd: 1088
-    min_spend_hkd: 3500
-    spend_cap_hkd: null
-    spend_cap_period: "campaign"
-    payment_methods: [ "Card Present", "Online" ]
-    eligible_merchants: [ ]
-    eligible_categories: [ ]
-    excluded_merchants: [ ]
-    excluded_categories: [ ]
-    registration_required: false
-    restrictions: "Source campaign (to 2026-03-03) includes HKD 500 cashback for first-90-day spend >= HKD 3,500, plus HKD 588 for qualifying PayMe setup and fund-in requirement."
-    keywords: [ "SC Smart迎新", "高達1088", "簽賬3500", "PayMe588", "新客戶" ]
-    tc_url: "https://hkcashrebate.com/sc-smart"
-    validity: "2026-01-01/2026-03-03"
-as_of: "2026-02-28"
-sources:
-  - "https://hkcashrebate.com/sc-smart"
-  - "https://www.sc.com/hk/credit-cards/smart/"
+as_of: "2026-03-01"

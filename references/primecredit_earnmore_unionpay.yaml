@@ -1,50 +1,30 @@
-id: primecredit_earnmore_unionpay
+id: "primecredit_earnmore_unionpay"
 name_en: "PrimeCredit EarnMORE UnionPay Credit Card"
 name_zh: "安信EarnMORE銀聯信用卡"
 issuer: "PrimeCredit"
 payment_network: "UnionPay"
 official_url: "https://www.primecredit.com/credit-card/earnmore/"
-annual_fee_notes: "Annual-fee details should be confirmed from latest PrimeCredit fee schedule/KFS."
-offers:
-  - title: "Retail spending up to 2% cashback (then 1% after half-year cap)"
-    offer_type: "spending"
-    description: "Eligible retail spending earns up to 2% cashback, and reverts to 1% after the half-year cumulative spend cap is reached."
-    reward_type: "cashback"
-    reward_rate_percent: 2.0
-    reward_cap_hkd: null
-    min_spend_hkd: null
-    spend_cap_hkd: 80000
-    spend_cap_period: "campaign"
-    payment_methods: [ "Card Present", "Online", "Mobile Wallet" ]
-    eligible_merchants: [ ]
-    eligible_categories: [ "General Spend", "Local", "Overseas" ]
-    excluded_merchants: [ ]
-    excluded_categories: [ ]
-    registration_required: false
-    restrictions: "Source states 2% applies to half-year accumulated eligible spend up to HKD 80,000, then 1% for excess amount. Current promotion snapshot runs to 2026-06-30."
-    keywords: [ "EarnMORE", "安信", "2%回贈", "銀聯", "首80000", "其後1%" ]
-    tc_url: "https://hkcashrebate.com/pc-earnmore"
-    validity: "2026-01-01/2026-06-30"
-  - title: "Welcome up to HKD 500 cashback"
-    offer_type: "welcome"
-    description: "New applicants can receive up to HKD 500 cashback based on first-2-month spending milestones."
-    reward_type: "cashback"
-    reward_rate_percent: null
-    reward_cap_hkd: 500
-    min_spend_hkd: 8800
-    spend_cap_hkd: null
-    spend_cap_period: "campaign"
-    payment_methods: [ "Card Present", "Online" ]
-    eligible_merchants: [ ]
-    eligible_categories: [ ]
-    excluded_merchants: [ ]
-    excluded_categories: [ ]
-    registration_required: false
-    restrictions: "Source indicates campaign to 2026-03-31 with welcome options including HKD 500 at spend HKD 8,800, HKD 400 at spend HKD 8,500, and student path around HKD 200 at spend HKD 2,000."
-    keywords: [ "EarnMORE迎新", "高達500", "簽賬8800", "簽賬8500", "學生迎新200" ]
-    tc_url: "https://hkcashrebate.com/pc-earnmore"
-    validity: "2026-01-01/2026-03-31"
-as_of: "2026-02-28"
-sources:
-  - "https://hkcashrebate.com/pc-earnmore"
-  - "https://www.primecredit.com/credit-card/earnmore/"
+promo_guide_url: "https://hkcashrebate.com/pc-earnmore"
+promotions:
+  - description: >
+      Core cashback: first HKD 80,000 spend in each half-year earns 2% cashback, and subsequent spend earns 1%.
+      Cashback is auto-credited to statements.
+    tc_url: "https://www.primecredit.com/wp-content/uploads/2025/12/C20251153_EarnMORE2026Q1_MKTWEB_300.pdf"
+    validity: "Until 2026-06-30"
+  - description: >
+      Source page includes observed examples: Apple Pay manual Octopus top-up reported at 2%; AlipayHK bill/tax
+      transactions reported at 2% despite T&C caution; WeChat Pay HK reported at 1% in those observations.
+    tc_url: null
+    validity: null
+  - description: >
+      Welcome offer (new PrimeCredit customer path) includes gift/cash options based on 90-day spend milestones:
+      HKD 8,800 for selected gifts, HKD 8,500 for HKD 500 cashback option, and a student path at HKD 2,000 spend
+      for HKD 200 cashback. Page also states Octopus AAV can be counted for welcome qualification.
+    tc_url: "https://www.primecredit.com/wp-content/uploads/2025/12/C20251153_EarnMORE2026Q1_MKTWEB_300.pdf"
+    validity: "Until 2026-03-31"
+  - description: >
+      A source-page affiliate extra-offer block is shown with date range 2026-02-01 to 2026-02-27 (cash + coupon);
+      this date window is already past as of 2026-03-01.
+    tc_url: "https://mhgprod.blob.core.windows.net/moneyhero/strapi-uploads/CC_Prime_Credit_202602_TNC_2c94cff82d.pdf"
+    validity: "2026-02-01 to 2026-02-27"
+as_of: "2026-03-01"

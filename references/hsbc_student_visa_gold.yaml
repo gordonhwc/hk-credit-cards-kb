@@ -1,69 +1,36 @@
-id: hsbc_student_visa_gold
+id: "hsbc_student_visa_gold"
 name_en: "HSBC Visa Gold Card for Students"
 name_zh: "滙豐學生Visa Gold信用卡"
 issuer: "HSBC"
 payment_network: "Visa"
 official_url: "https://www.hsbc.com.hk/credit-cards/products/student-visa-gold/"
-annual_fee_hkd: 0
-offers:
-  - title: "Tuition fee spending up to 2.4% RewardCash (cap HKD 400)"
-    offer_type: "spending"
-    description: "Eligible tuition fee transactions can earn up to 2.4% RewardCash, with campaign cap HKD 400."
-    reward_type: "cashback"
-    reward_rate_percent: 2.4
-    reward_cap_hkd: 400
-    min_spend_hkd: null
-    spend_cap_hkd: null
-    spend_cap_period: "campaign"
-    payment_methods: [ "Card Present", "Online" ]
-    eligible_merchants: [ ]
-    eligible_categories: [ "Tuition Fees", "Education" ]
-    excluded_merchants: [ ]
-    excluded_categories: [ ]
-    registration_required: false
-    restrictions: "Source period shown as 2025-07-11 to 2026-07-31; final eligibility depends on HSBC transaction coding."
-    keywords: [ "學生卡", "2.4% RewardCash", "學費", "回贈上限400" ]
-    tc_url: "https://hkcashrebate.com/hsbc-student"
-    validity: "2025-07-11/2026-07-31"
-  - title: "Overseas in-person spending + Travel Guru up to 8.4% RewardCash"
-    offer_type: "spending"
-    description: "Eligible overseas in-person spending can reach up to 8.4% RewardCash when combined with Travel Guru rebate components."
-    reward_type: "cashback"
-    reward_rate_percent: 8.4
-    reward_cap_hkd: null
-    min_spend_hkd: null
-    spend_cap_hkd: null
-    spend_cap_period: "campaign"
-    payment_methods: [ "Card Present" ]
-    eligible_merchants: [ ]
-    eligible_categories: [ "Overseas", "Travel" ]
-    excluded_merchants: [ ]
-    excluded_categories: [ ]
-    registration_required: true
-    restrictions: "Source indicates overseas in-person requirement and mentions a transaction fee of 1.95%; Travel Guru components follow HSBC campaign terms."
-    keywords: [ "學生卡", "海外簽賬", "Travel Guru", "8.4% RewardCash", "外幣手續費1.95%" ]
-    tc_url: "https://hkcashrebate.com/hsbc-student"
+promo_guide_url: "https://hkcashrebate.com/hsbc-student"
+promotions:
+  - description: >
+      "Own Your Rewards" selected category can earn up to 2.4% RewardCash, with annual selected-category spend cap
+      of HKD 100,000.
+    tc_url: "https://www.redhotoffers.hsbc.com.hk/media/74309856/TC_TC_2025-RYC.pdf"
     validity: null
-  - title: "Welcome up to HKD 300 RewardCash"
-    offer_type: "welcome"
-    description: "New student cardholders can receive up to HKD 300 RewardCash after first-2-month spending milestone; existing customer path has lower cap."
-    reward_type: "cashback"
-    reward_rate_percent: null
-    reward_cap_hkd: 300
-    min_spend_hkd: 2000
-    spend_cap_hkd: null
-    spend_cap_period: "campaign"
-    payment_methods: [ "Card Present", "Online" ]
-    eligible_merchants: [ ]
-    eligible_categories: [ ]
-    excluded_merchants: [ ]
-    excluded_categories: [ ]
-    registration_required: false
-    restrictions: "Source states welcome period to 2026-03-31. New customer: HKD 2,000 spend in first 2 months for HKD 300; existing customer: HKD 2,000 spend for HKD 200."
-    keywords: [ "HSBC學生卡迎新", "高達300 RewardCash", "首2個月", "簽賬2000", "現有客戶200" ]
-    tc_url: "https://hkcashrebate.com/hsbc-student"
-    validity: "2026-01-01/2026-03-31"
-as_of: "2026-02-28"
-sources:
-  - "https://hkcashrebate.com/hsbc-student"
-  - "https://www.hsbc.com.hk/credit-cards/products/student-visa-gold/"
+  - description: >
+      Tuition-fee payment offer: qualifying tuition payments via HSBC online/mobile banking for designated schools
+      can earn up to 2.4% RewardCash, with cap HKD 200 RewardCash per phase and up to HKD 400 total across two
+      listed phases.
+    tc_url: "https://cdn.hsbc.com.hk/content/dam/hsbc/hk/docs/credit-cards/tc/tuition-fee-payment-tcs1.pdf"
+    validity: "2025-04-01 to 2026-03-31"
+  - description: >
+      Travel Guru-linked overseas in-store spend can earn additional rewards; source wording indicates up to extra
+      6% on top of card rewards and profile examples up to 8.4% total in specific cases (FX handling fee still
+      applies per source).
+    tc_url: "https://hkcashrebate.com/hsbc-guru"
+    validity: null
+  - description: >
+      Welcome offer: new customers spend HKD 2,000 within 60 days after approval for HKD 300 RewardCash; existing
+      customers spend HKD 2,000 within 60 days for HKD 200 RewardCash. The page states e-wallet and tuition-fee
+      transactions are excluded from welcome qualification.
+    tc_url: "https://cdn.hsbc.com.hk/content/dam/hsbc/hk/tc/docs/credit-cards/student/terms-and-conditions.pdf"
+    validity: "Until 2026-03-31"
+  - description: >
+      Annual fee is described as permanently waived.
+    tc_url: null
+    validity: null
+as_of: "2026-03-01"

@@ -1,69 +1,34 @@
-id: bochk_go
+id: "bochk_go"
 name_en: "BOC Go Card"
 name_zh: "中銀Go卡"
 issuer: "BOCHK"
 payment_network: "UnionPay"
 official_url: "https://www.bochk.com/en/creditcard/details/gocard.html"
-annual_fee_notes: "Annual-fee arrangement varies by card tier and latest BOCHK fee schedule."
-offers:
-  - title: "Designated Go merchants up to 5% equivalent rebate"
-    offer_type: "spending"
-    description: "At designated Go merchants, eligible spending can earn up to 5% equivalent reward value."
-    reward_type: "points"
-    reward_rate_percent: 5.0
-    reward_cap_hkd: null
-    min_spend_hkd: null
-    spend_cap_hkd: 2000
-    spend_cap_period: "monthly"
-    payment_methods: [ "Card Present", "Online", "BoC Pay+" ]
-    eligible_merchants: [ "Keeta", "美團", "大眾點評", "高鐵（香港西九龍站櫃位及售票機）", "滴滴出行", "京東港澳站", "惠康", "Market Place", "Oliver's the Delicatessen", "3hreesixty" ]
-    eligible_categories: [ "Food Delivery", "Travel", "Ride-hailing", "E-commerce", "Supermarket" ]
-    excluded_merchants: [ ]
-    excluded_categories: [ ]
-    registration_required: true
-    restrictions: "Source shows designated-merchant spend cap HKD 2,000 per month for this 5% equivalent block. Supermarket merchants in this block exclude self-checkout and online transactions for 惠康/Market Place/Oliver's/3hreesixty."
-    keywords: [ "中銀Go", "Go商戶", "5%回贈", "Keeta", "美團", "大眾點評", "滴滴", "京東港澳站", "惠康", "Market Place", "Oliver's", "3hreesixty", "高鐵" ]
-    tc_url: "https://hkcashrebate.com/boc-go"
+promo_guide_url: "https://hkcashrebate.com/boc-go"
+promotions:
+  - description: >
+      Designated Go-merchant offer gives extra 4.6% cashback (up to 5% total with base rewards). Listed merchants
+      include Keeta, Meituan, Dazhong Dianping, Didi, JD HK/MO station (bound payment), Wellcome, Market Place,
+      Oliver's the Delicatessen, and 3hreesixty (excluding self-checkout and online channels). Monthly cap shown
+      is HKD 2,000 merchant spend.
+    tc_url: "https://www.bochk.com/dam/boccreditcard/gocard/gocardoffer_TC.pdf"
     validity: null
-  - title: "Registered mobile spending up to 8% equivalent rebate"
-    offer_type: "spending"
-    description: "With registration, UnionPay Diamond version can reach up to 20X points on mobile spending in Mainland China (up to 8% equivalent), with lower multipliers in Hong Kong and overseas."
-    reward_type: "points"
-    reward_rate_percent: 8.0
-    reward_cap_hkd: null
-    min_spend_hkd: 1500
-    spend_cap_hkd: null
-    spend_cap_period: "monthly"
-    payment_methods: [ "Apple Pay", "Google Pay", "Huawei Pay", "BoC Pay+" ]
-    eligible_merchants: [ ]
-    eligible_categories: [ "Mobile Payment", "Mainland China", "Overseas", "Local Retail" ]
-    excluded_merchants: [ ]
-    excluded_categories: [ ]
-    registration_required: true
-    restrictions: "Monthly reward cap is 25,000 points; multiplier differs by card tier and region. Source states local-spend monthly threshold waiver through 2026-06-30."
-    keywords: [ "中銀Go mobile", "20X積分", "8%回贈", "Apple Pay", "Google Pay", "Huawei Pay" ]
-    tc_url: "https://hkcashrebate.com/boc-go"
-    validity: "2026-02-28/2026-06-30"
-  - title: "Welcome up to HKD 500 cashback"
-    offer_type: "welcome"
-    description: "New cardholders can earn up to HKD 500 welcome cashback by completing eligible spending in the first 60 days."
-    reward_type: "cashback"
-    reward_rate_percent: 10.0
-    reward_cap_hkd: 500
-    min_spend_hkd: 5000
-    spend_cap_hkd: null
-    spend_cap_period: "campaign"
-    payment_methods: [ "Card Present", "Online", "Mobile Wallet" ]
-    eligible_merchants: [ ]
-    eligible_categories: [ ]
-    excluded_merchants: [ ]
-    excluded_categories: [ ]
-    registration_required: false
-    restrictions: "Source campaign (to 2026-12-31) indicates new customers can get 10% mobile-spending rebate up to HKD 500 in first 60 days (spend cap HKD 5,000); existing customers can get 5% up to HKD 200 (spend cap HKD 4,000)."
-    keywords: [ "中銀Go迎新", "高達500", "10%回贈", "首60日", "手機簽賬", "現有客戶200" ]
-    tc_url: "https://hkcashrebate.com/boc-go"
-    validity: "2026-01-01/2026-12-31"
-as_of: "2026-02-28"
-sources:
-  - "https://www.bochk.com/en/creditcard/details/gocard.html"
-  - "https://hkcashrebate.com/boc-go"
+  - description: >
+      Registered mobile-retail campaign (Apple Pay, Huawei Pay, BoC Pay+, UnionPay QR in app): Go UnionPay Diamond
+      can earn up to 20X/10X/3X points for Mainland/HK/overseas mobile spend (about 8%/4%/1.2%); Go UnionPay
+      Platinum can earn up to 10X/5X/2X (about 4%/2%/0.8%). Monthly cap is 25,000 points including base points.
+      The page states monthly local retail-spend requirement HKD 1,500, waived to 2026-06-30.
+    tc_url: "https://www.bochk.com/dam/boccreditcard/gopmq126/tnc_tc.pdf"
+    validity: "Requirement waiver until 2026-06-30"
+  - description: >
+      New-customer welcome: issue month plus next two calendar months mobile retail spend earns extra 10% cashback,
+      capped at HKD 500 on HKD 5,000 spend. Existing-customer welcome: HKD 200 after HKD 5,000 qualifying spend.
+      Qualifying transactions exclude e-wallet transfer and Octopus AAV.
+    tc_url: "https://www.bochk.com/dam/boccreditcard/gocard/Go_WG_TC.pdf"
+    validity: "Until 2026-12-31"
+  - description: >
+      The source page contains struck-through affiliate extra-offer blocks; per page presentation these are treated
+      as inactive historical content.
+    tc_url: null
+    validity: null
+as_of: "2026-03-01"

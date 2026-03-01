@@ -1,51 +1,30 @@
-id: primecredit_wewa_unionpay_diamond
+id: "primecredit_wewa_unionpay_diamond"
 name_en: "WeWa UnionPay Diamond Card"
 name_zh: "WeWa銀聯鑽石卡"
 issuer: "PrimeCredit"
 payment_network: "UnionPay"
 official_url: "https://www.wewacard.com/"
-annual_fee_notes: "Annual-fee details should be confirmed from latest WeWa/PrimeCredit fee schedule."
-offers:
-  - title: "Choose-your-cashback categories up to 4%"
-    offer_type: "spending"
-    description: "Cardholders can choose spending categories (e.g. dining, food delivery, ride-hailing, travel) and earn up to 4% cashback."
-    reward_type: "cashback"
-    reward_rate_percent: 4.0
-    reward_cap_hkd: 200
-    min_spend_hkd: 1500
-    spend_cap_hkd: 5556
-    spend_cap_period: "monthly"
-    payment_methods: [ "Card Present", "Online", "Mobile Wallet" ]
-    eligible_merchants: [ ]
-    eligible_categories: [ "Dining", "Food Delivery", "Online Shopping", "Ride-hailing", "Travel" ]
-    excluded_merchants: [ ]
-    excluded_categories: [ ]
-    registration_required: true
-    restrictions: "Source indicates base 0.4% plus extra 3.6% on selected categories with monthly spend threshold HKD 1,500; boosted cashback cap is HKD 200 monthly."
-    keywords: [ "WeWa", "4%回贈", "自選回贈", "餐飲", "外賣", "Call車", "旅遊" ]
-    tc_url: "https://hkcashrebate.com/pc-wewa"
-    validity: "2026-01-01/2026-06-30"
-  - title: "Welcome rewards up to HKD 700 equivalent"
-    offer_type: "welcome"
-    description: "New applicants can receive up to HKD 700 equivalent in welcome rewards under active acquisition campaigns."
-    reward_type: "mixed"
-    reward_rate_percent: null
-    reward_cap_hkd: 700
-    min_spend_hkd: 8000
-    spend_cap_hkd: null
-    spend_cap_period: "campaign"
-    payment_methods: [ "Card Present", "Online" ]
-    eligible_merchants: [ ]
-    eligible_categories: [ ]
-    excluded_merchants: [ ]
-    excluded_categories: [ ]
-    registration_required: false
-    restrictions: "Source snapshot (to 2026-02-28) indicates welcome combinations up to HKD 700 for new customers; existing-cardholder and student paths with lower caps are also listed."
-    keywords: [ "WeWa迎新", "高達700", "銀聯", "鑽石卡", "新客戶" ]
-    tc_url: "https://hkcashrebate.com/pc-wewa"
-    validity: "2026-01-01/2026-02-28"
-as_of: "2026-02-28"
-sources:
-  - "https://www.wewacard.com/"
-  - "https://www.wewacard.com/choose-your-cash-rebate/"
-  - "https://hkcashrebate.com/pc-wewa"
+promo_guide_url: "https://hkcashrebate.com/pc-wewa"
+promotions:
+  - description: >
+      Cashback structure: after monthly accumulated retail spend reaches HKD 1,500, selected category spend earns
+      extra 3.6% (4% total cashback). Categories shown: mobile payment, travel merchants, overseas FX spend, and
+      online entertainment. Per card, selected-category monthly cap is HKD 5,556 spend (HKD 200 bonus cap).
+    tc_url: "https://www.wewacard.com/wp-content/uploads/2025/05/WeWa-Cash-Rebate-TC_to-CORM_-202505013_C20250432_r1.pdf"
+    validity: "Until 2026-06-30"
+  - description: >
+      Welcome campaign on source page is dated to 2026-02-28 and includes 90-day spend milestone options (gift
+      choices or HKD 500 cash path) plus a student HKD 2,000 spend path. The page also states Octopus AAV can be
+      used for welcome qualification.
+    tc_url: "https://www.wewacard.com/wp-content/uploads/2025/06/C20250457_WeWa-TnC_20250701_v1.pdf"
+    validity: "Until 2026-02-28"
+  - description: >
+      Source page also shows a dated affiliate extra-offer block (2026-02-01 to 2026-02-27) with no-spend cash and
+      coupon bonuses; this date window is already past as of 2026-03-01.
+    tc_url: "https://mhgprod.blob.core.windows.net/moneyhero/strapi-uploads/CC_Prime_Credit_202602_TNC_2c94cff82d.pdf"
+    validity: "2026-02-01 to 2026-02-27"
+  - description: >
+      Additional note shown on source page: mobile-payment category currently does not support Google Pay.
+    tc_url: null
+    validity: null
+as_of: "2026-03-01"
